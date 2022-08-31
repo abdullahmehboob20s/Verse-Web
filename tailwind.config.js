@@ -10,6 +10,7 @@ module.exports = {
       white: "white",
       black: "#000",
       purple: "#7e20fc",
+      darkPurple: "#2a0b53",
       transparent: "transparent",
     },
     backgroundImage: {

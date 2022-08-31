@@ -121,3 +121,13 @@
     @apply w-[80%] max-w-[1920px] mx-auto;
   }
 }
+
+.hero-video-card {
+  transform: skewX(-15deg);
+  -webkit-transform: skewX(-15deg);
+}
+.hero-video-card video {
+  transform: translateX(-50%) skewX(15deg);
+  -webkit-transform: translateX(-50%) skewX(15deg);
+  left: 30%;
+}
