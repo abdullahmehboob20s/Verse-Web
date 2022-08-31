@@ -1,3 +1,123 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "worksans";
+    src: url("../public/fonts/worksans/WorkSans-Thin.ttf");
+    font-weight: 100;
+  }
+
+  @font-face {
+    font-family: "worksans";
+    src: url("../public/fonts/worksans/WorkSans-Light.ttf");
+    font-weight: 300;
+  }
+
+  @font-face {
+    font-family: "worksans";
+    src: url("../public/fonts/worksans/WorkSans-Regular.ttf");
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: "worksans";
+    src: url("../public/fonts/worksans/WorkSans-Medium.ttf");
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family: "worksans";
+    src: url("../public/fonts/worksans/WorkSans-SemiBold.ttf");
+    font-weight: 600;
+  }
+
+  @font-face {
+    font-family: "worksans";
+    src: url("../public/fonts/worksans/WorkSans-Bold.ttf");
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: "helvetica";
+    src: url("../public/fonts/worksans/Helvetica-Light.ttf");
+    font-weight: 300;
+  }
+
+  @font-face {
+    font-family: "animo";
+    src: url("../public/fonts/Animo.otf");
+  }
+
+  * {
+    @apply text-white font-worksans scroll-smooth;
+  }
+
+  html {
+    @apply bg-black;
+  }
+
+  /* GLOBALS */
+
+  p,
+  a {
+    @apply text-base;
+  }
+
+  /* SETTING */
+
+  *:focus {
+    outline: none !important;
+  }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #27272738;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #7e20fc;
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7e20fc;
+  }
+
+  ::selection {
+    color: white;
+    background: orange;
+  }
+
+  ::-webkit-selection {
+    color: white;
+    background: orange;
+  }
+
+  ::-moz-selection {
+    color: white;
+    background: orange;
+  }
+}
+
+@layer components {
+  .font-animo {
+    font-family: "animo" !important;
+  }
+
+  .container {
+    @apply w-[90%] max-w-[1920px] mx-auto;
+  }
+  .container-2 {
+    @apply w-[80%] max-w-[1920px] mx-auto;
+  }
+}

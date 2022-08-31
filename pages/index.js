@@ -1,11 +1,12 @@
+import Navbar from "components/Navbar";
 import React from "react";
 
-function index() {
+function Index() {
   return (
     <div>
-      <h1>sakljdklasjdklj</h1>
+      <Navbar />
     </div>
   );
 }
 
-export default index;
+export default Index;

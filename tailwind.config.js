@@ -6,7 +6,22 @@ module.exports = {
     "./layouts/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    colors: {
+      white: "white",
+      black: "#000",
+      purple: "#7e20fc",
+      transparent: "transparent",
+    },
+    backgroundImage: {
+      "purple-gradient": "linear-gradient(255deg, #7e20fc9e, #598ff1ab)",
+    },
+    extend: {
+      fontFamily: {
+        worksans: "worksans",
+        helvetica: "helvetica",
+        animo: "animo",
+      },
+    },
   },
   plugins: [],
 };
