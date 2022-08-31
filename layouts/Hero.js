@@ -6,7 +6,7 @@ function Hero() {
     <div className="min-h-screen flex items-center">
       <div className="container-2 relative">
         <HeroLeft />
-        <HeroVideos />
+        {/* <HeroVideos /> */}
       </div>
     </div>
   );
