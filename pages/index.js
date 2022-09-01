@@ -1,4 +1,5 @@
 import RevealedBanner from "components/RevealedBanner";
+import Divider from "layouts/Divider";
 import Hero from "layouts/Hero";
 import Navbar from "layouts/Navbar";
 import PoweredBy from "layouts/PoweredBy";
@@ -8,13 +9,20 @@ function Index() {
   return (
     <div>
       <Navbar />
-      <Hero />
+      <div>
+        <Hero />
+      </div>
       <div className="mb-[100px]">
         <PoweredBy />
       </div>
-      <RevealedBanner />
-      <div className="mb-[100px]">
+      <div>
+        <RevealedBanner />
+      </div>
+      <div>
         <WhyUtherverse />
+      </div>
+      <div>
+        <Divider img="images/divider-connection.png" />
       </div>
     </div>
   );
