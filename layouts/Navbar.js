@@ -7,7 +7,6 @@ import {
   FaTwitter,
   FaFacebookF,
   FaInstagram,
-  FaCaretDown,
 } from "react-icons/fa";
 
 const visionDropdownLinks = [
