@@ -11,6 +11,7 @@ import Navbar from "layouts/Navbar";
 import OwnMetaverse from "layouts/OwnMetaverse";
 import PoweredBy from "layouts/PoweredBy";
 import Protected from "layouts/Protected";
+import Roadmap from "layouts/Roadmap";
 import UtherverseTokenomics from "layouts/UtherverseTokenomics";
 import WhyUtherverse from "layouts/WhyUtherverse";
 
@@ -41,6 +42,9 @@ function Index() {
       <Divider img="images/divider-unity.png" />
       <BuiltOnUnity />
       <Divider img="images/unity-logo.png" />
+      <div className="mb-[200px]">
+        <Roadmap />
+      </div>
       <div className="mb-[200px]">
         <Contact />
       </div>

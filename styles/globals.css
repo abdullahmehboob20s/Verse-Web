@@ -120,6 +120,12 @@
   .container-2 {
     @apply w-[80%] max-w-[1920px] mx-auto;
   }
+
+  .text-gradient-purple {
+    background: linear-gradient(0deg, #7e20fc, #598ff1);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
 }
 
 .hero-video-card {
