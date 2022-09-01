@@ -1,5 +1,6 @@
 import RevealedBanner from "components/RevealedBanner";
 import BuiltOnUnity from "layouts/BuiltOnUnity";
+import Contact from "layouts/Contact";
 import Divider from "layouts/Divider";
 import Economy from "layouts/Economy";
 import Hero from "layouts/Hero";
@@ -39,6 +40,9 @@ function Index() {
       <Divider img="images/divider-unity.png" />
       <BuiltOnUnity />
       <Divider img="images/unity-logo.png" />
+      <div className="mb-[200px]">
+        <Contact />
+      </div>
     </div>
   );
 }
