@@ -38,7 +38,7 @@ function OwnMetaverse() {
     <SideBySideSection
       SectionOne={LeftSection}
       SectionTwo={RightSection}
-      sectionOneClassName="pr-0"
+      sectionOneClassName="p-14 pr-0"
       sectionTwoClassName="relative"
     />
   );

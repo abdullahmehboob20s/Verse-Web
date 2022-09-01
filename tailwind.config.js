@@ -14,6 +14,7 @@ module.exports = {
       lightBlue: "#598ff1",
       transparent: "transparent",
       darkGray: "#0d0e12",
+      yellow: "#f1e559",
     },
     backgroundImage: {
       "purple-gradient": "linear-gradient(255deg, #7e20fc9e, #598ff1ab)",

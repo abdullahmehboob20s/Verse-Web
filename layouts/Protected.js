@@ -25,7 +25,7 @@ function Protected() {
   return (
     <SideBySideSection
       SectionOne={LeftSection}
-      sectionOneClassName="pr-0"
+      sectionOneClassName="p-14 pr-0"
       sectionTwoClassName="relative"
       overflow="overflow-visible"
     >

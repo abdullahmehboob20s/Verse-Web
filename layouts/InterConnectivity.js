@@ -32,7 +32,7 @@ function InterConnectivity() {
   return (
     <SideBySideSection
       SectionOne={LeftSection}
-      sectionOneClassName="col-start-2 col-end-3 pl-0"
+      sectionOneClassName="col-start-2 col-end-3 p-14 pl-0"
       overflow="ovreflow-visible"
     >
       <div className="col-start-1 col-end-2 row-start-1 relative w-full">

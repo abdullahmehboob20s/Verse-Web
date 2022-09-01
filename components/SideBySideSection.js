@@ -3,8 +3,8 @@ import React from "react";
 function SideBySideSection({
   SectionOne,
   SectionTwo,
-  sectionOneClassName,
-  sectionTwoClassName,
+  sectionOneClassName = "p-14",
+  sectionTwoClassName = "p-14",
   spacing = "gap-14",
   wrapperClassName,
   overflow = "overflow-hidden",
@@ -17,7 +17,7 @@ function SideBySideSection({
           className={`bg-darkGray rounded-3xl grid grid-cols-2 ${overflow} ${spacing}`}
         >
           {SectionOne ? (
-            <div className={`${sectionOneClassName} p-14`}>
+            <div className={`${sectionOneClassName}`}>
               <SectionOne />
             </div>
           ) : null}
