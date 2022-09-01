@@ -3,6 +3,7 @@ import BuiltOnUnity from "layouts/BuiltOnUnity";
 import Contact from "layouts/Contact";
 import Divider from "layouts/Divider";
 import Economy from "layouts/Economy";
+import Footer from "layouts/Footer";
 import Hero from "layouts/Hero";
 import InterConnectivity from "layouts/InterConnectivity";
 import MMOR from "layouts/MMOR";
@@ -43,6 +44,7 @@ function Index() {
       <div className="mb-[200px]">
         <Contact />
       </div>
+      <Footer />
     </div>
   );
 }

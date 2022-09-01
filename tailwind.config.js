@@ -9,7 +9,9 @@ module.exports = {
     colors: {
       white: "white",
       black: "#000",
+      "purple-light": "#c498ff",
       purple: "#7e20fc",
+      "purple-2": "#481986",
       darkPurple: "#2a0b53",
       lightBlue: "#598ff1",
       transparent: "transparent",
@@ -19,6 +21,7 @@ module.exports = {
     backgroundImage: {
       "purple-gradient": "linear-gradient(255deg, #7e20fc9e, #598ff1ab)",
       "purple-gradient-2": "linear-gradient(76deg, #7e20fc, #598ff1);",
+      footer: "linear-gradient(180deg, black, #22014d);",
     },
     extend: {
       fontFamily: {
