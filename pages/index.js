@@ -1,8 +1,11 @@
 import RevealedBanner from "components/RevealedBanner";
 import Divider from "layouts/Divider";
 import Hero from "layouts/Hero";
+import InterConnectivity from "layouts/InterConnectivity";
 import Navbar from "layouts/Navbar";
+import OwnMetaverse from "layouts/OwnMetaverse";
 import PoweredBy from "layouts/PoweredBy";
+import Protected from "layouts/Protected";
 import WhyUtherverse from "layouts/WhyUtherverse";
 
 function Index() {
@@ -15,15 +18,15 @@ function Index() {
       <div className="mb-[100px]">
         <PoweredBy />
       </div>
-      <div>
-        <RevealedBanner />
-      </div>
-      <div>
-        <WhyUtherverse />
-      </div>
-      <div>
-        <Divider img="images/divider-connection.png" />
-      </div>
+      <RevealedBanner />
+      <WhyUtherverse />
+      <Divider img="images/divider-connection.png" />
+      <OwnMetaverse />
+      <Divider img="images/divider-connection.png" />
+      <InterConnectivity />
+      <Divider img="images/divider-connection.png" />
+      <Protected />
+      <Divider img="images/divider-connection.png" />
     </div>
   );
 }
