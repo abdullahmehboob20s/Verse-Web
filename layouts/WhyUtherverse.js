@@ -1,14 +1,13 @@
 import LearnMoreButton from "components/LearnMoreButton";
+import Image from "next/image";
 import React from "react";
 
 function WhyUtherverse() {
   return (
     <div className="relative">
-      <img
-        src="images/pensive.png"
-        className="absolute top-0 left-0 w-[70%] h-full object-cover z-[-1]"
-        alt=""
-      />
+      <div className="absolute top-0 left-0 w-[70%] h-full object-cover z-[-1]">
+        <Image src="/images/pensive.png" layout="fill" alt="" loading="lazy" />
+      </div>
 
       <div className="container-2 flex items-center justify-end">
         <div className="p-7 w-1/2">
