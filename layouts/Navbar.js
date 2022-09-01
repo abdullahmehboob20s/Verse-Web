@@ -1,3 +1,4 @@
+import Dropdown from "components/Dropdown";
 import Link from "next/link";
 import React from "react";
 import {
@@ -6,7 +7,28 @@ import {
   FaTwitter,
   FaFacebookF,
   FaInstagram,
+  FaCaretDown,
 } from "react-icons/fa";
+
+const visionDropdownLinks = [
+  { link: "/", title: "Mission" },
+  { link: "/", title: "Vision" },
+  { link: "/", title: "Web 3.D" },
+  { link: "/", title: "VWW" },
+  { link: "/", title: "Build A Metaverse" },
+  { link: "/", title: "Interconnectivity" },
+  { link: "/", title: "AEON" },
+  { link: "/", title: "MMOR" },
+  { link: "/", title: "Unity" },
+  { link: "/", title: "Responsibility" },
+  { link: "/", title: "Operations" },
+];
+const economicDropdownLinks = [
+  { link: "/", title: "Economics" },
+  { link: "/", title: "Tokenomics" },
+  { link: "/", title: "Web 3.D" },
+  { link: "/", title: "fNFt" },
+];
 
 function Navbar() {
   return (
@@ -19,16 +41,9 @@ function Navbar() {
         </Link>
         <div className="flex items-center justify-between flex-1">
           <div className="flex items-center space-x-[5px]">
-            <Link href="/">
-              <a className="py-[2px] px-[20px] font-medium rounded-[3px] transition-all duration-[.3s] hover:bg-purple-gradient">
-                Vision
-              </a>
-            </Link>
-            <Link href="/">
-              <a className="py-[2px] px-[20px] font-medium rounded-[3px] transition-all duration-[.3s] hover:bg-purple-gradient">
-                Economy
-              </a>
-            </Link>
+            <Dropdown title="Vision" links={visionDropdownLinks} />
+            <Dropdown title="Economy" links={economicDropdownLinks} />
+
             <Link href="/">
               <a className="py-[2px] px-[20px] font-medium rounded-[3px] transition-all duration-[.3s] hover:bg-purple-gradient">
                 Press
