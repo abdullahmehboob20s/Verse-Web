@@ -18,7 +18,7 @@ function Roadmap() {
           <div className="absolute top-0 left-[50%] translate-x-[-50%] w-[2px] h-full bg-purple"></div>
 
           <RoadmapCard
-            buttonTitle="Click to unfold Q1 2022"
+            question="Q1 2022"
             progress={[
               {
                 icon: "V-check-icon-green.svg",
@@ -27,7 +27,7 @@ function Roadmap() {
             ]}
           />
           <RoadmapCard
-            buttonTitle="Click to unfold Q2 2022"
+            question="Q2 2022"
             reverse={true}
             progress={[
               {
@@ -37,7 +37,7 @@ function Roadmap() {
             ]}
           />
           <RoadmapCard
-            buttonTitle="Click to unfold Q3 2022"
+            question="Q3 2022"
             progress={[
               {
                 icon: "V-check-icon-blue.svg",
@@ -46,7 +46,7 @@ function Roadmap() {
             ]}
           />
           <RoadmapCard
-            buttonTitle="Click to unfold Q4 2022"
+            question="Q4 2022"
             reverse={true}
             progress={[
               {
@@ -66,7 +66,7 @@ function Roadmap() {
             ]}
           />
           <RoadmapCard
-            buttonTitle="Click to unfold 2023"
+            question="2023"
             progress={[
               {
                 icon: "V-check-icon-blue.svg",

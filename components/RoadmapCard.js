@@ -1,16 +1,19 @@
 import React, { useRef, useState } from "react";
 import RoadmapProgressCard from "./RoadmapProgressCard";
 
-function RoadmapCard({ reverse = false, buttonTitle, progress }) {
+function RoadmapCard({ reverse = false, question, progress }) {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef(null);
+  const unRef = useRef(null);
 
   const toggler = () => {
     if (menuRef.current.clientHeight === 0) {
       menuRef.current.style.height = menuRef.current.scrollHeight + "px";
+      unRef.current.style.width = "0px";
       setIsOpen(true);
     } else {
       menuRef.current.style.height = 0;
+      unRef.current.style.width = "1.24em";
       setIsOpen(false);
     }
   };
@@ -43,7 +46,16 @@ function RoadmapCard({ reverse = false, buttonTitle, progress }) {
           {reverse ? null : (
             <img src="images/side-icon-right.svg" className="w-[1rem]" alt="" />
           )}
-          <span>{buttonTitle}</span>
+          <span>
+            Click to{" "}
+            <span
+              ref={unRef}
+              className="transition-all duration-[.3s] overflow-hidden w-[1.24em] inline-flex items-center justify-center"
+            >
+              un
+            </span>
+            fold {question}
+          </span>
           {reverse ? (
             <img
               src="images/side-icon-right.svg"
