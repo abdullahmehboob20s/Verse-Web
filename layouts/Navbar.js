@@ -86,22 +86,22 @@ function Navbar() {
             <Dropdown title="Economy" links={economicDropdownLinks} />
 
             <Link href="/">
-              <a className="py-1 lg:py-[2px] px-3 xl:px-[20px] text-sm xl:text-base 2xl:text-xl font-medium rounded-[3px] transition-all duration-[.3s] hover:bg-purple-gradient border-1 border-purple lg:border-none">
+              <a className="py-1 lg:py-[2px] px-3 xl:px-[20px] text-sm lg:text-xs xl:text-base 2xl:text-xl font-medium rounded-[3px] transition-all duration-[.3s] hover:bg-purple-gradient border-1 border-purple lg:border-none">
                 Press
               </a>
             </Link>
             <Link href="/">
-              <a className="py-1 lg:py-[2px] px-3 xl:px-[20px] text-sm xl:text-base 2xl:text-xl font-medium rounded-[3px] transition-all duration-[.3s] hover:bg-purple-gradient border-1 border-purple lg:border-none">
+              <a className="py-1 lg:py-[2px] px-3 xl:px-[20px] text-sm lg:text-xs xl:text-base 2xl:text-xl font-medium rounded-[3px] transition-all duration-[.3s] hover:bg-purple-gradient border-1 border-purple lg:border-none">
                 Patents
               </a>
             </Link>
             <Link href="/">
-              <a className="py-1 lg:py-[2px] px-3 xl:px-[20px] text-sm xl:text-base 2xl:text-xl font-medium rounded-[3px] transition-all duration-[.3s] hover:bg-purple-gradient border-1 border-purple lg:border-none">
+              <a className="py-1 lg:py-[2px] px-3 xl:px-[20px] text-sm lg:text-xs xl:text-base 2xl:text-xl font-medium rounded-[3px] transition-all duration-[.3s] hover:bg-purple-gradient border-1 border-purple lg:border-none">
                 Legacy
               </a>
             </Link>
             <Link href="/">
-              <a className="py-1 lg:py-[2px] px-3 xl:px-[20px] text-sm xl:text-base 2xl:text-xl font-medium rounded-[3px] transition-all duration-[.3s] hover:bg-purple-gradient border-1 border-purple lg:border-none">
+              <a className="py-1 lg:py-[2px] px-3 xl:px-[20px] text-sm lg:text-xs xl:text-base 2xl:text-xl font-medium rounded-[3px] transition-all duration-[.3s] hover:bg-purple-gradient border-1 border-purple lg:border-none">
                 Careers
               </a>
             </Link>
@@ -109,30 +109,42 @@ function Navbar() {
 
           <div className="flex items-center justify-between lg:justify-start space-x-5 xl:space-x-10">
             <Link href="/">
-              <a target="_blank" className="text-lg xl:text-xl 2xl:text-2xl">
+              <a
+                target="_blank"
+                className="text-lg lg:text-base xl:text-xl 2xl:text-2xl"
+              >
                 <FaDiscord />
               </a>
             </Link>
             <Link href="/">
-              <a target="_blank" className="text-lg xl:text-xl 2xl:text-2xl">
+              <a
+                target="_blank"
+                className="text-lg lg:text-base xl:text-xl 2xl:text-2xl"
+              >
                 <FaTelegramPlane />
               </a>
             </Link>
             <Link href="/">
-              <a target="_blank" className="text-lg xl:text-xl 2xl:text-2xl">
+              <a
+                target="_blank"
+                className="text-lg lg:text-base xl:text-xl 2xl:text-2xl"
+              >
                 <FaTwitter />
               </a>
             </Link>
             <Link href="/">
               <a
                 target="_blank"
-                className="text-base xl:text-[1.1rem] 2xl:text-[1.4rem]"
+                className="text-base lg:text-sm xl:text-[1.1rem] 2xl:text-[1.4rem]"
               >
                 <FaFacebookF />
               </a>
             </Link>
             <Link href="/">
-              <a target="_blank" className="text-lg xl:text-xl 2xl:text-2xl">
+              <a
+                target="_blank"
+                className="text-lg lg:text-base xl:text-xl 2xl:text-2xl"
+              >
                 <FaInstagram />
               </a>
             </Link>

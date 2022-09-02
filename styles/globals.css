@@ -55,7 +55,7 @@
   }
 
   html {
-    @apply bg-black;
+    @apply bg-black overflow-x-hidden;
   }
 
   /* GLOBALS */
@@ -118,7 +118,7 @@
     @apply w-[90%] max-w-[1920px] mx-auto;
   }
   .container-2 {
-    @apply w-[80%] max-w-[1920px] mx-auto;
+    @apply w-[90%] lg:w-[80%] max-w-[1920px] mx-auto;
   }
 
   .text-gradient-purple {
@@ -135,7 +135,6 @@
 .hero-video-card video {
   transform: translateX(-50%) skewX(15deg);
   -webkit-transform: translateX(-50%) skewX(15deg);
-  left: 30%;
 }
 
 .white-icon {

@@ -31,8 +31,16 @@ module.exports = {
         helvetica: "helvetica",
         animo: "animo",
       },
+      fontSize: {
+        "100px": "100px",
+        "40px": "40px",
+      },
       borderWidth: {
         1: "1px",
+      },
+      spacing: {
+        "500px": "31.25rem",
+        "10px": "10px",
       },
     },
   },

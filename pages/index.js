@@ -19,10 +19,10 @@ function Index() {
   return (
     <div>
       <Navbar />
-      {/* <div>
+      <div>
         <Hero />
       </div>
-      <div className="mb-[100px]">
+      {/* <div className="mb-[100px]">
         <PoweredBy />
       </div>
       <RevealedBanner />
