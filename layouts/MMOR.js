@@ -11,7 +11,7 @@ const LeftSection = () => {
       loop={true}
       defaultmuted={true}
       playsinline={true}
-      className="h-full object-cover"
+      className="absolute top-0 left-0 w-full h-full object-cover"
     ></video>
   );
 };
@@ -44,7 +44,8 @@ function MMOR() {
       SectionOne={LeftSection}
       SectionTwo={RightSection}
       sectionOneClassName="relative"
-      sectionTwoClassName="p-14 pl-0"
+      sectionTwoClassName=""
+      spacing=""
     />
   );
 }
