@@ -57,7 +57,7 @@ function Navbar() {
         </button>
         <div
           ref={sidebarRef}
-          className={`flex flex-col lg:flex-row lg:items-center justify-between flex-1 fixed top-0 right-0 lg:static border-l-1 border-purple lg:border-none w-[300px] h-full lg:h-auto lg:w-auto bg-purple p-12 lg:p-0 overflow-y-auto lg:overflow-visible transition-all duration-[.3s] lg:translate-x-0 z-[120] ${
+          className={`flex flex-col lg:flex-row lg:items-center justify-between flex-1 fixed top-0 right-0 lg:static border-l-1 border-purple lg:border-none w-[300px] h-full lg:h-auto lg:w-auto bg-black p-12 lg:p-0 overflow-y-auto lg:overflow-visible transition-all duration-[.3s] lg:translate-x-0 z-[120] ${
             isSidebarOpen ? "translate-x-0" : "translate-x-[300px]"
           }`}
         >
