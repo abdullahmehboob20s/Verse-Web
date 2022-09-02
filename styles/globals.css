@@ -126,6 +126,20 @@
     -webkit-background-clip: text;
     color: transparent;
   }
+
+  /* FONT SIZES */
+
+  .fs-56px {
+    @apply text-3xl md:text-4xl xl:text-56px;
+  }
+
+  .fs-24px {
+    @apply text-base sm:text-lg xl:text-2xl;
+  }
+
+  .fs-16px {
+    @apply text-sm xl:text-base;
+  }
 }
 
 .hero-video-card {

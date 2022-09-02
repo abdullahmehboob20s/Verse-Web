@@ -5,7 +5,7 @@ function SideBySideSection({
   SectionTwo,
   sectionOneClassName = "p-14",
   sectionTwoClassName = "p-14",
-  spacing = "gap-14",
+  spacing = "lg:gap-14",
   wrapperClassName,
   overflow = "overflow-hidden",
   children,
@@ -14,16 +14,20 @@ function SideBySideSection({
     <div className={wrapperClassName}>
       <div className="container">
         <div
-          className={`bg-darkGray rounded-3xl grid grid-cols-2 ${overflow} ${spacing}`}
+          className={`bg-darkGray rounded-xl lg:rounded-3xl grid grid-cols-1 lg:grid-cols-2 ${overflow} ${spacing}`}
         >
           {SectionOne ? (
-            <div className={`${sectionOneClassName}`}>
+            <div
+              className={`${sectionOneClassName} p-6 sm:p-8 md:p-10 xl:p-14 lg:pr-0`}
+            >
               <SectionOne />
             </div>
           ) : null}
 
           {SectionTwo ? (
-            <div className={`${sectionTwoClassName}`}>
+            <div
+              className={`${sectionTwoClassName} p-6 sm:p-8 md:p-10 xl:p-14 lg:pl-0`}
+            >
               <SectionTwo />
             </div>
           ) : null}

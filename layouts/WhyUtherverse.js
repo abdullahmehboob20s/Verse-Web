@@ -22,15 +22,15 @@ function WhyUtherverse() {
           <h1 className="text-xl sm:text-2xl xl:text-4xl font-bold mb-4 xl:mb-5">
             <span className="text-purple">Why</span> Utherverse is for you
           </h1>
-          <h2 className="text-4xl xl:text-56px font-bold mb-6 leading-[1]">
+          <h2 className="fs-56px font-bold mb-6 leading-[1]">
             Meet AEON <sup className="text-xs align-super">TM</sup>
           </h2>
 
-          <h4 className="text-base sm:text-lg xl:text-2xl text-purple mb-6">
+          <h4 className="fs-24px text-purple mb-6">
             Utherverse is Building the Next Layer of the Internet.
           </h4>
 
-          <p className="text-sm xl:text-base text-white leading-[1.6] font-light mb-8 xl:mb-10">
+          <p className="fs-16px text-white leading-[1.6] font-light mb-8 xl:mb-10">
             Users of the Utherverse will access this new Internet layer using a
             new kind of Internet Browser, named Aeon™. Aeon™ is a web 3.D
             browser with powerful new search engine tools.
