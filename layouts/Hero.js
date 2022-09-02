@@ -6,7 +6,7 @@ function Hero() {
     <div className="lg:min-h-screen flex items-center pt-36 lg:py-0">
       <div className="container-2 relative">
         <HeroLeft />
-        {/* <HeroVideos /> */}
+        <HeroVideos />
       </div>
     </div>
   );

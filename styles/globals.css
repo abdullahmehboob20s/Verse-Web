@@ -140,15 +140,13 @@
   .fs-16px {
     @apply text-sm xl:text-base;
   }
-}
 
-.hero-video-card {
-  transform: skewX(-15deg);
-  -webkit-transform: skewX(-15deg);
-}
-.hero-video-card video {
-  transform: translateX(-50%) skewX(15deg);
-  -webkit-transform: translateX(-50%) skewX(15deg);
+  .hero-video-card {
+    @apply flex-1 relative;
+  }
+  .hero-video-card video {
+    @apply absolute top-0 left-[50%] h-full skew-x-[-15deg] w-full translate-x-[-50%] object-cover;
+  }
 }
 
 .white-icon {
