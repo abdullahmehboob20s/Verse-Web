@@ -24,6 +24,8 @@ function SideBySideSection({
             </div>
           ) : null}
 
+          {children}
+
           {SectionTwo ? (
             <div
               className={`${sectionTwoClassName} p-6 sm:p-8 md:p-10 xl:p-14 lg:pl-0`}
@@ -31,8 +33,6 @@ function SideBySideSection({
               <SectionTwo />
             </div>
           ) : null}
-
-          {children}
         </div>
       </div>
     </div>

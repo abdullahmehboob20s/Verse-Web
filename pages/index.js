@@ -30,9 +30,9 @@ function Index() {
       <Divider img="images/divider-connection.png" />
       <OwnMetaverse />
       <Divider img="images/divider-wifi.png" />
-      {/* <InterConnectivity />
+      <InterConnectivity />
       <Divider img="images/divider-shield.png" />
-      <Protected />
+      {/* <Protected />
       <Divider img="images/divider-chart.png" showArrow={true} />
       <Economy />
       <Divider img="images/divider-logo.png" />
