@@ -14,7 +14,7 @@ function Roadmap() {
           </p>
         </div>
 
-        <div className="xl:w-[80%] mx-auto relative space-y-10 md:space-y-20 pl-8 md:ml-0">
+        <div className="xl:w-[80%] mx-auto relative space-y-10 md:space-y-20 pl-8 md:ml-[inherit]">
           <div className="absolute top-0 left-0 md:left-[50%] md:translate-x-[-50%] w-[2px] h-full bg-purple"></div>
 
           <RoadmapCard
