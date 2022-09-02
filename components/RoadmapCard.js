@@ -19,12 +19,12 @@ function RoadmapCard({ reverse = false, question, progress }) {
   };
 
   return (
-    <div className="grid grid-cols-2 gap-28 items-start">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-28 items-start">
       <div
         className="transition-all duration-[.3s] h-[0] overflow-hidden"
         ref={menuRef}
       >
-        <div className="space-y-6">
+        <div className="space-y-3 md:space-y-6">
           {progress?.map((card, index) => (
             <RoadmapProgressCard data={card} key={index} reverse={reverse} />
           ))}
@@ -33,19 +33,24 @@ function RoadmapCard({ reverse = false, question, progress }) {
       <div
         className={`flex items-center ${
           reverse
-            ? "col-start-1 col-end-2 row-start-1 justify-end"
-            : "justify-start"
+            ? "md:col-start-1 md:col-end-2 row-start-1 md:row-start-1 justify-start md:justify-end"
+            : "justify-start row-start-1 md:row-start-auto"
         }`}
       >
         <button
-          className={`text-xl text-white font-normal flex items-center space-x-4 transition-all duration-[.3s] ${
-            isOpen ? "mt-6" : "mt-0"
+          className={`text-xs sm:text-base xl:text-xl text-white font-normal flex items-center md:space-x-4 transition-all duration-[.3s] ${
+            isOpen ? "md:mt-6" : "md:mt-0"
           }`}
           onClick={() => toggler()}
         >
           {reverse ? null : (
-            <img src="images/side-icon-right.svg" className="w-[1rem]" alt="" />
+            <img
+              src="images/side-icon-right.svg"
+              className="hidden md:block w-[1rem]"
+              alt=""
+            />
           )}
+
           <span>
             Click to{" "}
             <span
@@ -56,10 +61,19 @@ function RoadmapCard({ reverse = false, question, progress }) {
             </span>
             fold {question}
           </span>
+
+          <img
+            src="images/side-icon-right.svg"
+            className={`block md:hidden w-[1rem] ml-4 transition-all duration-[.2s] ${
+              isOpen ? "rotate-[90deg]" : "rotate-[-90deg]"
+            }`}
+            alt=""
+          />
+
           {reverse ? (
             <img
               src="images/side-icon-right.svg"
-              className="w-[1rem] rotate-[180deg]"
+              className="w-[1rem] rotate-[180deg] hidden md:block"
               alt=""
             />
           ) : null}

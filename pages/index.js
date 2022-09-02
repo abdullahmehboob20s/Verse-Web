@@ -42,10 +42,10 @@ function Index() {
       <Divider img="images/divider-unity.png" />
       <BuiltOnUnity />
       <Divider img="images/unity-logo.png" />
-      {/* <div className="mb-[200px]">
+      <div className="mb-[200px]">
         <Roadmap />
       </div>
-      <div className="mb-[200px]">
+      {/* <div className="mb-[200px]">
         <Contact />
       </div>
       <Footer /> */}
