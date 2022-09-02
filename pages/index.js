@@ -38,8 +38,8 @@ function Index() {
       <Divider img="images/divider-logo.png" />
       <UtherverseTokenomics />
       <Divider img="images/divider-connection.png" />
-      {/* <MMOR />
-      <Divider img="images/divider-unity.png" /> */}
+      <MMOR />
+      <Divider img="images/divider-unity.png" />
       {/* <BuiltOnUnity />
       <Divider img="images/unity-logo.png" />
       <div className="mb-[200px]">

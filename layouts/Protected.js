@@ -36,7 +36,7 @@ function Protected() {
     <SideBySideSection
       SectionOne={LeftSection}
       SectionTwo={RightSection}
-      sectionOneClassName="p-14 pr-0"
+      sectionOneClassName=""
       sectionTwoClassName="relative flex items-center justify-center row-start-1 lg:row-start-auto"
       overflow="overflow-visible"
     />
