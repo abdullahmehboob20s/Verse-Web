@@ -31,6 +31,9 @@ module.exports = {
         helvetica: "helvetica",
         animo: "animo",
       },
+      borderWidth: {
+        1: "1px",
+      },
     },
   },
   plugins: [],
