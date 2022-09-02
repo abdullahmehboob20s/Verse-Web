@@ -27,10 +27,10 @@ function Index() {
       </div>
       <RevealedBanner />
       <WhyUtherverse />
-      {/* <Divider img="images/divider-connection.png" />
+      <Divider img="images/divider-connection.png" />
       <OwnMetaverse />
       <Divider img="images/divider-wifi.png" />
-      <InterConnectivity />
+      {/* <InterConnectivity />
       <Divider img="images/divider-shield.png" />
       <Protected />
       <Divider img="images/divider-chart.png" showArrow={true} />
