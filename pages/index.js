@@ -32,9 +32,9 @@ function Index() {
       <Divider img="images/divider-wifi.png" />
       <InterConnectivity />
       <Divider img="images/divider-shield.png" />
-      {/* <Protected />
+      <Protected />
       <Divider img="images/divider-chart.png" showArrow={true} />
-      <Economy />
+      {/* <Economy />
       <Divider img="images/divider-logo.png" />
       <UtherverseTokenomics />
       <Divider img="images/divider-connection.png" />
