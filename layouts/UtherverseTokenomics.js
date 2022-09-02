@@ -6,15 +6,15 @@ import React from "react";
 const LeftSection = () => {
   return (
     <>
-      <h1 className="text-[55px] leading-[1] font-bold text-white mb-6">
+      <h1 className="fs-56px leading-[1] font-bold text-white mb-6">
         Utherverse Tokenomics
       </h1>
-      <h4 className="text-purple text-2xl font-medium mb-7">
+      <h4 className="text-purple fs-24px font-medium mb-7">
         The Tokenomics of Utherverse are designed to govern a sustainable
         economy utilizing our UTHER Coin along with a frictionless mirror token
         for in-world trade.
       </h4>
-      <p className="text-base font-light mb-8 text-white">
+      <p className="fs-16px font-light mb-8 text-white">
         Business will be done between decentralized blockchains in wholly new
         ways, as they interoperate via our platform. This will be the true
         realization of web 3.D
@@ -32,8 +32,8 @@ const RightSection = () => {
       layout="fill"
       src="/images/phone-tokens.png"
       loading="lazy"
-      objectFit="cover"
-      className=""
+      // objectFit="cover"
+      className="object-contain lg:object-cover"
     />
   );
 };
@@ -43,8 +43,8 @@ function UtherverseTokenomics() {
     <SideBySideSection
       SectionOne={LeftSection}
       SectionTwo={RightSection}
-      sectionOneClassName="p-14 pr-0"
-      sectionTwoClassName="relative"
+      sectionOneClassName=""
+      sectionTwoClassName="relative h-[12rem] sm:h-[18rem] md:h-[20rem] lg:h-auto row-start-1 lg:row-start-auto"
     />
   );
 }
