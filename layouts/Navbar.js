@@ -35,6 +35,16 @@ function Navbar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const sidebarRef = OutsideClickDetector(() => setIsSidebarOpen(false));
 
+  useEffect(() => {
+    if (isSidebarOpen) {
+      document.body.style["height"] = "100vh";
+      document.body.style["overflow-y"] = "hidden";
+    } else {
+      document.body.style["height"] = "auto";
+      document.body.style["overflow-y"] = "auto";
+    }
+  }, [isSidebarOpen]);
+
   return (
     <nav className="fixed bg-black z-50 top-0 left-0 w-full border-b-[1px] border-purple">
       <div className="container-2 h-[3.4rem] lg:h-auto lg:py-[1rem] xl:py-[1.4rem] flex justify-end lg:justify-[unset] items-center relative space-x-6">
