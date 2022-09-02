@@ -25,8 +25,8 @@ function Index() {
       <div className="mb-[100px]">
         <PoweredBy />
       </div>
-      {/* <RevealedBanner />
-      <WhyUtherverse />
+      <RevealedBanner />
+      {/* <WhyUtherverse />
       <Divider img="images/divider-connection.png" />
       <OwnMetaverse />
       <Divider img="images/divider-wifi.png" />
