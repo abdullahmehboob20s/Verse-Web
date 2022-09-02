@@ -52,6 +52,9 @@ module.exports = {
         "500px": "31.25rem",
         "10px": "10px",
       },
+      maxWidth: {
+        "420px": "420px",
+      },
     },
   },
   plugins: [],

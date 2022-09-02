@@ -45,10 +45,10 @@ function Index() {
       <div className="mb-[200px]">
         <Roadmap />
       </div>
-      {/* <div className="mb-[200px]">
+      <div className="mb-[200px]">
         <Contact />
       </div>
-      <Footer /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
