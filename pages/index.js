@@ -22,10 +22,10 @@ function Index() {
       <div>
         <Hero />
       </div>
-      {/* <div className="mb-[100px]">
+      <div className="mb-[100px]">
         <PoweredBy />
       </div>
-      <RevealedBanner />
+      {/* <RevealedBanner />
       <WhyUtherverse />
       <Divider img="images/divider-connection.png" />
       <OwnMetaverse />
