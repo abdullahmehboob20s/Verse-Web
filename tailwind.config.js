@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -26,6 +28,10 @@ module.exports = {
       "light-gray-bg":
         "linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8))",
       footer: "linear-gradient(180deg, black, #22014d);",
+    },
+    screens: {
+      xs: "500px",
+      ...defaultTheme.screens,
     },
     extend: {
       fontFamily: {

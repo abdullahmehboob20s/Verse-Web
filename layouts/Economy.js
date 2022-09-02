@@ -6,17 +6,29 @@ const LeftSection = () => {
   return (
     <>
       <div className="space-y-3">
-        <img src="images/32-billion.png" className="w-[90%]" alt="" />
-        <p className="text-yellow  text-[40px] font-light">Transactions</p>
+        <img
+          src="images/32-billion.png"
+          className="w-[80%] xs:w-[70%] sm:w-[50%] lg:w-[70%] xl:w-[90%]"
+          alt=""
+        />
+        <p className="text-yellow text-2xl lg:text-3xl xl:text-40px font-light">
+          Transactions
+        </p>
       </div>
 
       <div>
         <div className="space-y-3 mb-6">
-          <img src="images/15-billion-dollars.png" className="w-[90%]" alt="" />
-          <p className="text-yellow  text-[40px] font-light">US dollars</p>
+          <img
+            src="images/15-billion-dollars.png"
+            className="w-[80%] xs:w-[70%] sm:w-[50%] lg:w-[70%] xl:w-[90%]"
+            alt=""
+          />
+          <p className="text-yellow text-2xl lg:text-3xl xl:text-40px font-light">
+            US dollars
+          </p>
         </div>
 
-        <p className="text-sm font-light text-white opacity-[.4]">
+        <p className="text-xs xl:text-sm font-light text-white opacity-[.4]">
           *When calculated at the long-standing exchange rate of $0.075 ® / $
         </p>
       </div>
@@ -27,13 +39,13 @@ const LeftSection = () => {
 const RightSection = () => {
   return (
     <>
-      <h1 className="text-[55px] leading-[1] font-bold text-white mb-5">
+      <h1 className="fs-56px leading-[1] font-bold text-white mb-5">
         Utherverse Economy
       </h1>
-      <h4 className="text-purple text-2xl font-medium mb-7">
+      <h4 className="text-purple fs-24px font-medium mb-7">
         Our patented technology is years ahead of the competition.
       </h4>
-      <p className="text-base font-light mb-9 text-white">
+      <p className="fs-16px font-light mb-9 text-white">
         We have laid the groundwork for the metaverse and we will be forever
         tied to the growth and prosperity of the meta-era.
       </p>
@@ -48,8 +60,7 @@ function Economy() {
     <SideBySideSection
       SectionOne={LeftSection}
       SectionTwo={RightSection}
-      sectionOneClassName="p-14 pr-0 flex flex-col justify-center space-y-10"
-      sectionTwoClassName="p-14 pl-0"
+      sectionOneClassName="flex flex-col justify-center space-y-10"
     />
   );
 }

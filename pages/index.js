@@ -34,9 +34,9 @@ function Index() {
       <Divider img="images/divider-shield.png" />
       <Protected />
       <Divider img="images/divider-chart.png" showArrow={true} />
-      {/* <Economy />
+      <Economy />
       <Divider img="images/divider-logo.png" />
-      <UtherverseTokenomics />
+      {/* <UtherverseTokenomics />
       <Divider img="images/divider-connection.png" />
       <MMOR />
       <Divider img="images/divider-unity.png" />
