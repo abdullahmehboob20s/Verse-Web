@@ -24,7 +24,7 @@ function ScrollToTopButton() {
   return (
     <button
       onClick={() => scrollToTop()}
-      className={`fixed bottom-2 right-2 w-10 h-10 bg-purple rounded-tl-[20px] rounded-tr-[20px] flex items-center justify-center text-2xl text-white transition-all duration-[.2s] hover:bg-orange z-50 ${
+      className={`fixed bottom-2 right-2 w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 bg-purple rounded-tl-[20px] rounded-tr-[20px] flex items-center justify-center text-sm sm:text-base md:text-2xl text-white transition-all duration-[.2s] hover:bg-orange z-50 ${
         isScrolledMuch
           ? "opacity-100 pointer-events-auto"
           : "opacity-0 pointer-events-none"
