@@ -23,6 +23,8 @@ module.exports = {
     backgroundImage: {
       "purple-gradient": "linear-gradient(255deg, #7e20fc9e, #598ff1ab)",
       "purple-gradient-2": "linear-gradient(76deg, #7e20fc, #598ff1);",
+      "light-gray-bg":
+        "linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8))",
       footer: "linear-gradient(180deg, black, #22014d);",
     },
     extend: {
@@ -34,6 +36,7 @@ module.exports = {
       fontSize: {
         "100px": "100px",
         "40px": "40px",
+        "56px": "56px",
       },
       borderWidth: {
         1: "1px",

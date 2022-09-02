@@ -26,8 +26,8 @@ function Index() {
         <PoweredBy />
       </div>
       <RevealedBanner />
-      {/* <WhyUtherverse />
-      <Divider img="images/divider-connection.png" />
+      <WhyUtherverse />
+      {/* <Divider img="images/divider-connection.png" />
       <OwnMetaverse />
       <Divider img="images/divider-wifi.png" />
       <InterConnectivity />

@@ -6,7 +6,7 @@ import React from "react";
 const LeftSection = () => {
   return (
     <>
-      <h1 className="text-[55px] leading-[1] font-bold text-white mb-2">
+      <h1 className="text-56px leading-[1] font-bold text-white mb-2">
         Build your OWN Metaverse
       </h1>
       <h4 className="text-purple text-2xl font-medium mb-7">{"It's"} easy</h4>
