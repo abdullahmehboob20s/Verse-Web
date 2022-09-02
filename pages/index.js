@@ -48,7 +48,7 @@ function Index() {
       <div className="mb-[200px]">
         <Contact />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
