@@ -6,7 +6,7 @@ function HeroVideos() {
       <div className="hero-video-card h-[86%]">
         <video
           loading="lazy"
-          src="images/compressed/club.mp4"
+          src="images/compressed-images/club.mp4"
           muted={true}
           loop={true}
           autoPlay={true}
@@ -17,7 +17,7 @@ function HeroVideos() {
       <div className="hero-video-card h-full">
         <video
           loading="lazy"
-          src="images/compressed/beach.mp4"
+          src="images/compressed-images/beach.mp4"
           muted={true}
           loop={true}
           autoPlay={true}
@@ -28,7 +28,7 @@ function HeroVideos() {
       <div className="hero-video-card h-[86%]">
         <video
           loading="lazy"
-          src="images/compressed/plaza.mp4"
+          src="images/compressed-images/plaza.mp4"
           muted={true}
           loop={true}
           autoPlay={true}
