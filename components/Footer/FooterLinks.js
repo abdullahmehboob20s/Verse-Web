@@ -9,165 +9,115 @@ import {
 
 function FooterLinks() {
   return (
-    <div className="grid grid-cols-[auto_auto] md:grid-cols-[repeat(5,auto)] justify-center gap-8 md:gap-0 md:justify-between px-10 mb-20">
+    <div className="footer-links">
       <div>
-        <h4 className="text-base lg:text-lg xl:text-2xl text-white font-bold mb-4">
-          Vision
-        </h4>
+        <h4 className="footer-links-title">Vision</h4>
         <div className="space-y-2">
           <Link href="/">
-            <a className="text-xs xl:text-lg text-white font-light w-fit block transition-all duration-[.2s] hover:text-purple-light">
-              Mission
-            </a>
+            <a className="footer-link">Mission</a>
           </Link>
           <Link href="/">
-            <a className="text-xs xl:text-lg text-white font-light w-fit block transition-all duration-[.2s] hover:text-purple-light">
-              Vision
-            </a>
+            <a className="footer-link">Vision</a>
           </Link>
           <Link href="/">
-            <a className="text-xs xl:text-lg text-white font-light w-fit block transition-all duration-[.2s] hover:text-purple-light">
-              Our legacy
-            </a>
+            <a className="footer-link">Our legacy</a>
           </Link>
           <Link href="/">
-            <a className="text-xs xl:text-lg text-white font-light w-fit block transition-all duration-[.2s] hover:text-purple-light">
-              Web 3.D
-            </a>
+            <a className="footer-link">Web 3.D</a>
           </Link>
           <Link href="/">
-            <a className="text-xs xl:text-lg text-white font-light w-fit block transition-all duration-[.2s] hover:text-purple-light">
-              VWW
-            </a>
+            <a className="footer-link">VWW</a>
           </Link>
           <Link href="/">
-            <a className="text-xs xl:text-lg text-white font-light w-fit block transition-all duration-[.2s] hover:text-purple-light">
-              Build A Metaverse
-            </a>
+            <a className="footer-link">Build A Metaverse</a>
           </Link>
           <Link href="/">
-            <a className="text-xs xl:text-lg text-white font-light w-fit block transition-all duration-[.2s] hover:text-purple-light">
-              Interconnectivity
-            </a>
+            <a className="footer-link">Interconnectivity</a>
           </Link>
         </div>
       </div>
       <div>
-        <h4 className="text-base lg:text-lg xl:text-2xl text-white font-bold mb-4">
-          Links
-        </h4>
+        <h4 className="footer-links-title">Links</h4>
         <div className="space-y-2">
           <Link href="/">
-            <a className="text-xs xl:text-lg text-white font-light w-fit block transition-all duration-[.2s] hover:text-purple-light">
-              Aeon
-            </a>
+            <a className="footer-link">Aeon</a>
           </Link>
           <Link href="/">
-            <a className="text-xs xl:text-lg text-white font-light w-fit block transition-all duration-[.2s] hover:text-purple-light">
-              MMOR
-            </a>
+            <a className="footer-link">MMOR</a>
           </Link>
           <Link href="/">
-            <a className="text-xs xl:text-lg text-white font-light w-fit block transition-all duration-[.2s] hover:text-purple-light">
-              Unity
-            </a>
+            <a className="footer-link">Unity</a>
           </Link>
           <Link href="/">
-            <a className="text-xs xl:text-lg text-white font-light w-fit block transition-all duration-[.2s] hover:text-purple-light">
-              Responsibility
-            </a>
+            <a className="footer-link">Responsibility</a>
           </Link>
           <Link href="/">
-            <a className="text-xs xl:text-lg text-white font-light w-fit block transition-all duration-[.2s] hover:text-purple-light">
-              Operations
-            </a>
+            <a className="footer-link">Operations</a>
           </Link>
           <Link href="/">
-            <a className="text-xs xl:text-lg text-white font-light w-fit block transition-all duration-[.2s] hover:text-purple-light">
-              Careers
-            </a>
+            <a className="footer-link">Careers</a>
           </Link>
         </div>
       </div>
       <div>
-        <h4 className="text-base lg:text-lg xl:text-2xl text-white font-bold mb-4">
-          Economy
-        </h4>
+        <h4 className="footer-links-title">Economy</h4>
         <div className="space-y-2">
           <Link href="/">
-            <a className="text-xs xl:text-lg text-white font-light w-fit block transition-all duration-[.2s] hover:text-purple-light">
-              Tokenomics
-            </a>
+            <a className="footer-link">Tokenomics</a>
           </Link>
           <Link href="/">
-            <a className="text-xs xl:text-lg text-white font-light w-fit block transition-all duration-[.2s] hover:text-purple-light">
-              fNFT
-            </a>
+            <a className="footer-link">fNFT</a>
           </Link>
         </div>
       </div>
       <div>
-        <h4 className="text-base lg:text-lg xl:text-2xl text-white font-bold mb-4">
-          Other
-        </h4>
+        <h4 className="footer-links-title">Other</h4>
         <div className="space-y-2">
           <Link href="/">
-            <a className="text-xs xl:text-lg text-white font-light w-fit block transition-all duration-[.2s] hover:text-purple-light">
-              Press
-            </a>
+            <a className="footer-link">Press</a>
           </Link>
           <Link href="/">
-            <a className="text-xs xl:text-lg text-white font-light w-fit block transition-all duration-[.2s] hover:text-purple-light">
-              Privacy Policy
-            </a>
+            <a className="footer-link">Privacy Policy</a>
           </Link>
           <Link href="/">
-            <a className="text-xs xl:text-lg text-white font-light w-fit block transition-all duration-[.2s] hover:text-purple-light">
-              Disclaimer
-            </a>
+            <a className="footer-link">Disclaimer</a>
           </Link>
         </div>
       </div>
       <div>
-        <h4 className="text-base lg:text-lg xl:text-2xl text-white font-bold mb-4">
-          Contact Us
-        </h4>
+        <h4 className="footer-links-title">Contact Us</h4>
         <div className="space-y-2 mb-6">
           <Link href="/">
-            <a className="text-xs xl:text-lg text-white font-light w-fit block transition-all duration-[.2s] hover:text-purple-light">
-              Contact
-            </a>
+            <a className="footer-link">Contact</a>
           </Link>
           <Link href="/">
-            <a className="text-xs xl:text-lg text-white font-light w-fit block transition-all duration-[.2s] hover:text-purple-light">
-              Follow us
-            </a>
+            <a className="footer-link">Follow us</a>
           </Link>
         </div>
         <div className="flex items-center space-x-2 xl:space-x-4">
           <Link href="/">
             <a target="_blank" className="text-base xl:text-2xl flex group">
-              <FaDiscord className="group-hover:fill-purple-light transition-all duration-[.2s]" />
+              <FaDiscord className="footer-social-icon" />
             </a>
           </Link>
           <Link href="/">
             <a target="_blank" className="text-base xl:text-2xl flex group">
-              <FaTelegramPlane className="group-hover:fill-purple-light transition-all duration-[.2s]" />
+              <FaTelegramPlane className="footer-social-icon" />
             </a>
           </Link>
           <Link href="/">
             <a target="_blank" className="text-sm xl:text-xl flex group">
-              <FaTwitter className="group-hover:fill-purple-light transition-all duration-[.2s]" />
+              <FaTwitter className="footer-social-icon" />
             </a>
           </Link>
           <Link href="/">
             <a target="_blank" className="text-sm xl:text-xl flex group">
-              <FaFacebookF className="group-hover:fill-purple-light transition-all duration-[.2s]" />
+              <FaFacebookF className="footer-social-icon" />
             </a>
           </Link>
           <Link href="/">
             <a target="_blank" className="text-sm xl:text-xl flex group">
-              <FaInstagram className="group-hover:fill-purple-light transition-all duration-[.2s]" />
+              <FaInstagram className="footer-social-icon" />
             </a>
           </Link>
         </div>

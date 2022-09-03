@@ -22,7 +22,7 @@ function Index() {
       <div>
         <Hero />
       </div>
-      <div className="mb-[100px]">
+      <div className="mb-100px">
         <PoweredBy />
       </div>
       <RevealedBanner />
@@ -42,10 +42,10 @@ function Index() {
       <Divider img="images/divider-unity.png" />
       <BuiltOnUnity />
       <Divider img="images/unity-logo.png" />
-      <div className="mb-[200px]">
+      <div className="mb-20 sm:mb-100px lg:mb-200px">
         <Roadmap />
       </div>
-      <div className="mb-[200px]">
+      <div className="mb-16 sm:mb-100px lg:mb-200px">
         <Contact />
       </div>
       <Footer />

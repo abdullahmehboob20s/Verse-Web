@@ -4,7 +4,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-footer">
+    <footer className="bg-footer">
       <div className="container-2 pb-20">
         <div className="flex flex-col-reverse lg:flex-row items-center lg:space-x-8 xl:space-x-20 mb-16">
           <SubscribeForm />
@@ -34,18 +34,12 @@ function Footer() {
         </div>
 
         <div className="flex flex-col xs:flex-row items-center space-y-3 xs:space-y-0 xs:space-x-2 justify-center">
-          <button className="py-[0.2rem] xl:py-[0.3rem] px-3 xl:px-4 bg-purple-gradient-2 text-white text-xs font-medium rounded-sm">
-            Personal Data Policy
-          </button>
-          <button className="py-[0.2rem] xl:py-[0.3rem] px-3 xl:px-4 bg-purple-gradient-2 text-white text-xs font-medium rounded-sm">
-            Cookie Policy
-          </button>
-          <button className="py-[0.2rem] xl:py-[0.3rem] px-3 xl:px-4 bg-purple-gradient-2 text-white text-xs font-medium rounded-sm">
-            Terms and Conditions
-          </button>
+          <button className="footer-info-btn">Personal Data Policy</button>
+          <button className="footer-info-btn">Cookie Policy</button>
+          <button className="footer-info-btn">Terms and Conditions</button>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
 
