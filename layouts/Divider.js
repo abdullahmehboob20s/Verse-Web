@@ -3,7 +3,7 @@ import React from "react";
 
 function Divider({ img, link = "/", showArrow = false }) {
   return (
-    <div className="flex items-center justify-center relative space-x-2 py-16 md:my-20 xl:my-26">
+    <div className="flex items-center justify-center relative space-x-2 py-16 md:my-12">
       <div className="h-1px w-full bg-purple z-[-1]"></div>
       <Link href={link}>
         <a className="block min-w-[50px] w-[50px] md:min-w-[70px] md:w-[70px] xl:min-w-[101px] xl:w-[101px]">
