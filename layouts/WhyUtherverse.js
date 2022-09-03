@@ -19,7 +19,7 @@ function WhyUtherverse() {
 
       <div className="container-2 flex items-center lg:justify-end">
         <div className="py-7 w-full max-w-[26rem] lg:max-w-none lg:w-1/2">
-          <h1 className="text-xl sm:text-2xl xl:text-4xl font-bold mb-4 xl:mb-5">
+          <h1 className="text-lg sm:text-2xl xl:text-3xl font-bold mb-4 xl:mb-5">
             <span className="text-purple">Why</span> Utherverse is for you
           </h1>
           <h2 className="fs-56px font-bold mb-6 leading-[1]">

@@ -118,10 +118,10 @@
   }
 
   .container {
-    @apply w-[90%] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px] mx-auto;
+    @apply w-[90%] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] mx-auto;
   }
   .container-2 {
-    @apply w-[90%] lg:w-[80%] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px] mx-auto;
+    @apply w-[90%] lg:w-[80%] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] mx-auto;
   }
 
   .text-gradient-purple {
@@ -138,7 +138,7 @@
   /* FONT SIZES */
 
   .fs-56px {
-    @apply text-3xl md:text-4xl xl:text-56px;
+    @apply text-2xl md:text-4xl xl:text-5xl;
   }
 
   .fs-24px {

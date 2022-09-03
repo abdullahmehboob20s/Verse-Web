@@ -3,7 +3,7 @@ import HeroVideos from "components/Hero/HeroVideos";
 
 function Hero() {
   return (
-    <div className="lg:pb-16 relative flex items-center pt-20 xl:pt-24">
+    <div className="relative flex items-center pt-20">
       <div className="purple-blur"></div>
 
       <div className="container-2 relative z-20">

@@ -24,10 +24,10 @@ function Index() {
       </Head>
 
       <Navbar />
-      <div>
+      <div className="mb-16 lg:mb-100px">
         <Hero />
       </div>
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <PoweredBy />
       </div>
       <RevealedBanner />

@@ -4,16 +4,16 @@ import HeroButton from "./HeroButton";
 function HeroLeft() {
   return (
     <div className="text-center lg:text-left lg:w-[50%] flex flex-col items-center lg:items-start">
-      <h1 className="text-5xl xl:text-7xl 2xl:text-100px text-purple font-bold relative leading-[1] mb-2 xl:mb-4 2xl:mb-9">
+      <h1 className="text-5xl xl:text-7xl text-purple font-bold relative leading-[1] mb-2 xl:mb-4">
         Utherverse
         <sup className="text-purple text-base font-normal align-super">®</sup>
       </h1>
-      <p className="text-xl sm:text-2xl xl:text-4xl 2xl:text-40px text-white font-medium mb-4 xl:mb-7">
+      <p className="text-xl sm:text-2xl xl:text-4xl text-white font-medium mb-4 xl:mb-7">
         Best Of All Worlds
         <span className="text-[.25em] align-super font-medium"> TM</span>
       </p>
 
-      <p className="max-w-[18rem] lg:max-w-none text-sm xl:text-base text-white font-light mb-6 xl:mb-8 2xl:mb-10">
+      <p className="max-w-[18rem] lg:max-w-none text-sm xl:text-base text-white font-light mb-6 xl:mb-8">
         Combining the best of the Internet, Video Gaming and{" "}
         <br className="hidden lg:block" /> Virtual Reality
       </p>
