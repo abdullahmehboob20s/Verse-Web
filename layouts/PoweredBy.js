@@ -5,8 +5,8 @@ import { FaPlay } from "react-icons/fa";
 function PoweredBy() {
   return (
     <div>
-      <div className="container-2 flex flex-col xl:flex-row justify-between items-center space-y-5 mt-14 lg:mt-0">
-        <div className="flex flex-col xl:flex-row items-center xl:space-x-16">
+      <div className="container-2 flex flex-col xl:flex-row justify-between items-center space-y-3 mt-14 lg:mt-0">
+        <div className="flex flex-col xl:flex-row items-center xl:space-x-12">
           <h1 className="text-sm xl:text-lg text-white font-medium uppercase">
             Powered By
           </h1>
