@@ -3,10 +3,12 @@ import HeroVideos from "components/Hero/HeroVideos";
 
 function Hero() {
   return (
-    <div className="lg:min-h-screen flex items-center pt-36 lg:py-0">
-      <div className="container-2 relative">
+    <div className="lg:pb-16 relative flex items-center pt-20 xl:pt-24">
+      <div className="purple-blur"></div>
+
+      <div className="container-2 relative z-20">
         <HeroLeft />
-        <HeroVideos />
+        {/* <HeroVideos /> */}
       </div>
     </div>
   );

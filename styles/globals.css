@@ -70,6 +70,9 @@
   *:focus {
     outline: none !important;
   }
+  *:focus-visible {
+    outline: none !important;
+  }
 
   /* width */
   ::-webkit-scrollbar {
@@ -115,10 +118,10 @@
   }
 
   .container {
-    @apply w-[90%] max-w-[1920px] mx-auto;
+    @apply w-[90%] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px] mx-auto;
   }
   .container-2 {
-    @apply w-[90%] lg:w-[80%] max-w-[1920px] mx-auto;
+    @apply w-[90%] lg:w-[80%] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px] mx-auto;
   }
 
   .text-gradient-purple {
@@ -145,7 +148,8 @@
     @apply flex-1 relative;
   }
   .hero-video-card video {
-    @apply absolute top-0 left-[50%] h-full skew-x-[-15deg] w-full translate-x-[-50%] object-cover;
+    @apply absolute top-0 left-[50%] h-full w-full translate-x-[-50%] object-cover;
+    /* skew-x-[-15deg] */
   }
 }
 
@@ -169,4 +173,16 @@
 .black-screen.show {
   opacity: 1;
   pointer-events: visible;
+}
+
+.purple-blur {
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  box-shadow: 0px 0px 1000px 300px #7f20fc8c;
+  pointer-events: none;
+  user-select: none;
 }

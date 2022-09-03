@@ -46,7 +46,7 @@ function Navbar() {
   }, [isSidebarOpen]);
 
   return (
-    <nav className="fixed bg-black z-50 top-0 left-0 w-full border-b-[1px] border-purple">
+    <nav className="bg-black relative z-50 top-0 left-0 w-full border-b-[1px] border-purple">
       <div className="container-2 h-[3.4rem] lg:h-auto lg:py-[1rem] xl:py-[1.4rem] flex justify-end lg:justify-[unset] items-center relative space-x-6">
         <Link href="/">
           <a className="flex items-center justify-center translate-x-[-50%] lg:translate-x-[unset] left-[50%] bottom-[-82%] absolute lg:static lg:ml-[-8%] lg:mb-[-4rem] xl:mb-[-5.5rem] 2xl:mb-[-6rem]">
