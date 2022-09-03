@@ -12,11 +12,7 @@ function RoadmapProgressCard({ data, reverse }) {
           reverse ? "mr-4 md:mr-6" : "mr-4 md:ml-6"
         }`}
       >
-        <img
-          src={`images/${data.icon}`}
-          className="w-[50%] lg:w-[70%]"
-          alt=""
-        />
+        <img src={`images/${data.icon}`} className="w-1/2 lg:w-[70%]" alt="" />
       </div>
       <p
         className={`text-xs lg:text-sm xl:text-base font-medium text-white ${

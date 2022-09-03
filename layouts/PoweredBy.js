@@ -36,14 +36,14 @@ function PoweredBy() {
 
         <div>
           <Link href="/">
-            <a className="flex items-center space-x-4 border-[1px] rounded-[10px] py-[5px] px-[18px] group hover:bg-white transition-all duration-[.3s]">
-              <span className="font-medium text-white text-sm xl:text-base group-hover:text-black transition-all duration-[.3s]">
-                <span className="text-white group-hover:text-black transition-all duration-[.3s] font-bold">
+            <a className="flex items-center space-x-4 border-1px rounded-[10px] py-[5px] px-[18px] group hover:bg-white transition-all duration-.3s">
+              <span className="font-medium text-white text-sm xl:text-base group-hover:text-black transition-all duration-.3s">
+                <span className="text-white group-hover:text-black transition-all duration-.3s font-bold">
                   TOUR
                 </span>{" "}
                 UTHERVERSE
               </span>
-              <FaPlay className="text-[.5rem] xl:text-[.7rem] group-hover:fill-black transition-all duration-[.3s]" />
+              <FaPlay className="text-[.5rem] xl:text-[.7rem] group-hover:fill-black transition-all duration-.3s" />
             </a>
           </Link>
         </div>

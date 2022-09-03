@@ -21,7 +21,7 @@ function RoadmapCard({ reverse = false, question, progress }) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-28 items-start">
       <div
-        className="transition-all duration-[.3s] h-[0] overflow-hidden"
+        className="transition-all duration-.3s h-0 overflow-hidden"
         ref={menuRef}
       >
         <div className="space-y-3 md:space-y-6">
@@ -38,7 +38,7 @@ function RoadmapCard({ reverse = false, question, progress }) {
         }`}
       >
         <button
-          className={`text-xs sm:text-base xl:text-xl text-white font-normal flex items-center md:space-x-4 transition-all duration-[.3s] ${
+          className={`text-xs sm:text-base xl:text-xl text-white font-normal flex items-center md:space-x-4 transition-all duration-.3s ${
             isOpen ? "md:mt-6" : "md:mt-0"
           }`}
           onClick={() => toggler()}
@@ -46,7 +46,7 @@ function RoadmapCard({ reverse = false, question, progress }) {
           {reverse ? null : (
             <img
               src="images/side-icon-right.svg"
-              className="hidden md:block w-[1rem]"
+              className="hidden md:block w-4"
               alt=""
             />
           )}
@@ -55,7 +55,7 @@ function RoadmapCard({ reverse = false, question, progress }) {
             Click to{" "}
             <span
               ref={unRef}
-              className="transition-all duration-[.3s] overflow-hidden w-[1.24em] inline-flex items-center justify-center"
+              className="transition-all duration-.3s overflow-hidden w-[1.24em] inline-flex items-center justify-center"
             >
               un
             </span>
@@ -64,8 +64,8 @@ function RoadmapCard({ reverse = false, question, progress }) {
 
           <img
             src="images/side-icon-right.svg"
-            className={`block md:hidden w-[1rem] ml-4 transition-all duration-[.2s] ${
-              isOpen ? "rotate-[90deg]" : "rotate-[-90deg]"
+            className={`block md:hidden w-4 ml-4 transition-all duration-.2s ${
+              isOpen ? "rotate-90" : "-rotate-90"
             }`}
             alt=""
           />
@@ -73,7 +73,7 @@ function RoadmapCard({ reverse = false, question, progress }) {
           {reverse ? (
             <img
               src="images/side-icon-right.svg"
-              className="w-[1rem] rotate-[180deg] hidden md:block"
+              className="w-4 rotate-180 hidden md:block"
               alt=""
             />
           ) : null}
