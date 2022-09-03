@@ -14,10 +14,15 @@ import Protected from "layouts/Protected";
 import Roadmap from "layouts/Roadmap";
 import UtherverseTokenomics from "layouts/UtherverseTokenomics";
 import WhyUtherverse from "layouts/WhyUtherverse";
+import Head from "next/head";
 
 function Index() {
   return (
     <div>
+      <Head>
+        <title>Utherverse</title>
+      </Head>
+
       <Navbar />
       <div>
         <Hero />
