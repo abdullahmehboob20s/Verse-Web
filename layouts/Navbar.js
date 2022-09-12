@@ -12,7 +12,7 @@ import {
 import { IoMenu, IoCloseSharp } from "react-icons/io5";
 
 const visionDropdownLinks = [
-  { link: "/", title: "Mission" },
+  { link: "/mission", title: "Mission" },
   { link: "/", title: "Vision" },
   { link: "/", title: "Web 3.D" },
   { link: "/", title: "VWW" },

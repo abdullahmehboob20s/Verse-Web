@@ -123,6 +123,9 @@
   .container-2 {
     @apply w-[90%] lg:w-[80%] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] mx-auto;
   }
+  .container-full {
+    @apply w-full max-w-[1280px] mx-auto;
+  }
 
   .text-gradient-purple {
     background: linear-gradient(0deg, #7e20fc, #598ff1);
@@ -142,8 +145,16 @@
     @apply text-base sm:text-lg xl:text-2xl;
   }
 
+  .fs-28px {
+    @apply text-[28px];
+  }
+
   .fs-16px {
     @apply text-sm xl:text-base;
+  }
+
+  .fs-18px {
+    @apply text-lg;
   }
 
   .hero-video-card {
