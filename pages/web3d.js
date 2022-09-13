@@ -19,7 +19,7 @@ function Web3d() {
   return (
     <div>
       <Head>
-        <title>Utherverse - Mission</title>
+        <title>Utherverse - Web3D</title>
       </Head>
 
       <div className="mb-16">

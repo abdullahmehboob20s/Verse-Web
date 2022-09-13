@@ -141,6 +141,10 @@
     @apply text-2xl md:text-4xl xl:text-5xl;
   }
 
+  .fs-20px {
+    @apply text-xl;
+  }
+
   .fs-24px {
     @apply text-base sm:text-lg xl:text-2xl;
   }
@@ -220,4 +224,21 @@
   background: linear-gradient(to top, transparent, #7f20fc73);
   pointer-events: none;
   user-select: none;
+}
+
+/* SCROLLBARS */
+
+.scrollbar-blue::-webkit-scrollbar {
+  width: 3px;
+}
+
+.scrollbar-blue::-webkit-scrollbar-track {
+  background-color: #000000ab;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 3px #000000ab;
+}
+
+.scrollbar-blue::-webkit-scrollbar-thumb {
+  background: #598ff1;
+  border-radius: 10px;
 }

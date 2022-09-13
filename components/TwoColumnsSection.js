@@ -1,6 +1,12 @@
 import React from "react";
 
-function TwoColumnsSection({ reverse = false, children, img, ImgComponent }) {
+function TwoColumnsSection({
+  reverse = false,
+  children,
+  img,
+  ImgComponent,
+  imgHeight = "h-530px",
+}) {
   return (
     <div className="w-full grid grid-cols-2 items-center gap-50px">
       {reverse ? (
@@ -8,7 +14,7 @@ function TwoColumnsSection({ reverse = false, children, img, ImgComponent }) {
           <div className="w-full max-w-[34rem] ml-auto text-right">
             {children}
           </div>
-          <div className="h-530px rounded-l-[50px] overflow-hidden">
+          <div className={`${imgHeight} rounded-l-[50px] overflow-hidden`}>
             {ImgComponent ? (
               <ImgComponent />
             ) : (
@@ -18,7 +24,7 @@ function TwoColumnsSection({ reverse = false, children, img, ImgComponent }) {
         </>
       ) : (
         <>
-          <div className="h-530px rounded-r-[50px] overflow-hidden">
+          <div className={`${imgHeight} rounded-r-[50px] overflow-hidden`}>
             {ImgComponent ? (
               <ImgComponent />
             ) : (
