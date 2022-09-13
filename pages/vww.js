@@ -1,5 +1,3 @@
-import Accordion from "components/Accordion";
-import SocialLinks from "components/Contact/SocialLinks";
 import ContactUs from "components/ContactUs";
 import FixedHeightCard from "components/FixedHeightCard";
 import TitleWithBar from "components/TitleWithBar";
@@ -53,7 +51,7 @@ function Vww() {
       <div className="mb-150px">
         <div className="container-2">
           <div className="grid grid-cols-2 gap-10">
-            <FixedHeightCard>
+            <FixedHeightCard title="Expanding the Value of the Internet">
               <p className="fs-16px text-white font-medium">
                 Designed to bring the enormous value of the internet to
                 industries that had largely been left out due to the solitary
@@ -64,7 +62,7 @@ function Vww() {
                 prior internet iteration.
               </p>
             </FixedHeightCard>
-            <FixedHeightCard>
+            <FixedHeightCard title="A Unified Platform">
               <p className="fs-16px text-white font-medium">
                 By bringing together technologies from the flat web, video
                 games, mobile devices, social networking and virtual reality,
