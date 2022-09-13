@@ -1,6 +1,7 @@
 import Accordion from "components/Accordion";
 import SocialLinks from "components/Contact/SocialLinks";
 import ContactUs from "components/ContactUs";
+import TitleWithBar from "components/TitleWithBar";
 import TwoColumnsSection from "components/TwoColumnsSection";
 import Footer from "layouts/Footer";
 import Navbar from "layouts/Navbar";
@@ -18,16 +19,11 @@ function Mission() {
         <Navbar />
       </div>
 
-      <h1 className="fs-56px text-white font-bold text-center mb-10">
-        MISSION
-      </h1>
-
-      <div className="bg-purple py-3 mb-100px">
-        <div className="container">
-          <p className="fs-16px text-white text-center">
-            THE UTHERVERSE - BEST OF ALL WORLDS
-          </p>
-        </div>
+      <div className="mb-100px">
+        <TitleWithBar
+          title="MISSION"
+          subtitle="THE UTHERVERSE - BEST OF ALL WORLDS"
+        />
       </div>
 
       <div className="mb-100px">
