@@ -22,14 +22,7 @@ module.exports = {
       yellow: "#f1e559",
       orange: "orange",
     },
-    backgroundImage: {
-      "purple-gradient": "linear-gradient(255deg, #7e20fc9e, #598ff1ab)",
-      "purple-gradient-2": "linear-gradient(76deg, #7e20fc, #598ff1);",
-      "light-purple-to-dark": "linear-gradient(242deg, #7e20fc, #3f107e)",
-      "light-gray-bg":
-        "linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8))",
-      footer: "linear-gradient(180deg, black, #22014d);",
-    },
+
     screens: {
       xs: "500px",
       ...defaultTheme.screens,
@@ -83,6 +76,14 @@ module.exports = {
         "8px": "8px",
         "9px": "9px",
         "10px": "10px",
+      },
+      backgroundImage: {
+        "purple-gradient": "linear-gradient(255deg, #7e20fc9e, #598ff1ab)",
+        "purple-gradient-2": "linear-gradient(76deg, #7e20fc, #598ff1);",
+        "light-purple-to-dark": "linear-gradient(242deg, #7e20fc, #3f107e)",
+        "light-gray-bg":
+          "linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8))",
+        footer: "linear-gradient(180deg, black, #22014d);",
       },
     },
   },

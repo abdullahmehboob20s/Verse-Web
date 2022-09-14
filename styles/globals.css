@@ -156,8 +156,26 @@
   .fs-28px {
     @apply text-[28px];
   }
+
   .fs-30px {
     @apply text-3xl;
+  }
+
+  .fs-32px {
+    @apply text-[32px];
+  }
+  .fs-34px {
+    @apply text-[34px];
+  }
+  .fs-36px {
+    @apply text-[36px];
+  }
+  .fs-38px {
+    @apply text-[38px];
+  }
+
+  .fs-40px {
+    @apply text-[40px];
   }
 
   .fs-16px {
