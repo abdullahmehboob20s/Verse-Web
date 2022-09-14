@@ -1,4 +1,3 @@
-import BulletPoint from "components/BulletPoint";
 import ContactUs from "components/ContactUs";
 import TitleWithBar from "components/TitleWithBar";
 import TwoColumnsSection from "components/TwoColumnsSection";
@@ -6,12 +5,6 @@ import Footer from "layouts/Footer";
 import Navbar from "layouts/Navbar";
 import Head from "next/head";
 import React from "react";
-
-const Bullet = ({ img }) => {
-  return (
-    <img src={img} alt="" className="min-w-[50px] h-[50px] rounded-full" />
-  );
-};
 
 function Unity() {
   return (
