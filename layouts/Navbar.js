@@ -21,7 +21,7 @@ const visionDropdownLinks = [
   { link: "/aeon", title: "AEON" },
   { link: "/mmor", title: "MMOR" },
   { link: "/unity", title: "Unity" },
-  { link: "/", title: "Responsibility" },
+  { link: "/responsibility", title: "Responsibility" },
   { link: "/", title: "Operations" },
 ];
 const economicDropdownLinks = [
