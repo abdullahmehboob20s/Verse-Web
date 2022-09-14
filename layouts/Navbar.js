@@ -17,7 +17,7 @@ const visionDropdownLinks = [
   { link: "/web3d", title: "Web 3.D" },
   { link: "/vww", title: "VWW" },
   { link: "/build", title: "Build A Metaverse" },
-  { link: "/", title: "Interconnectivity" },
+  { link: "/interconnectivity", title: "Interconnectivity" },
   { link: "/", title: "AEON" },
   { link: "/", title: "MMOR" },
   { link: "/", title: "Unity" },

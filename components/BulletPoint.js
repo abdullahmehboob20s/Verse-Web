@@ -8,6 +8,7 @@ function BulletPoint({
   alignment = "items-start",
   spacing = "space-x-3",
   reverse = false,
+  textClassName = "fs-16px text-white font-medium",
 }) {
   return (
     <div
@@ -17,7 +18,7 @@ function BulletPoint({
     >
       {reverse ? (
         <h6
-          className={`fs-16px text-white font-medium text-right ${
+          className={`${textClassName} text-right ${
             Bullet ? pointClassName : "mt-[.02em]"
           }`}
         >
@@ -31,7 +32,7 @@ function BulletPoint({
       )}
       {reverse ? null : (
         <h6
-          className={`fs-16px text-white font-medium text-left ${
+          className={`${textClassName} text-left ${
             Bullet ? pointClassName : "mt-[.02em]"
           }`}
         >
