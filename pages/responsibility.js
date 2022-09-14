@@ -1,5 +1,6 @@
 import ContactUs from "components/ContactUs";
 import FixedHeightCard from "components/FixedHeightCard";
+import ResponsibilityCard from "components/ResponsibilityCard";
 import TitleWithBar from "components/TitleWithBar";
 import TwoColumnsSection from "components/TwoColumnsSection";
 import Footer from "layouts/Footer";
@@ -118,7 +119,7 @@ function Responsibility() {
         >
           <div className="py-50px">
             <h4 className="fs-56px text-white uppercase font-bold mb-4 leading-[1.1]">
-              COMMUNITY SAFETY MANDATE
+              COMMUNITY <br /> SAFETY MANDATE
             </h4>
             <h4 className="fs-24px text-purple uppercase font-semibold mb-4">
               Utherverse is committed to the growth and prosperity of a rich
@@ -140,7 +141,7 @@ function Responsibility() {
         </TwoColumnsSection>
       </div>
 
-      <div className="mb-150px">
+      <div className="mb-200px">
         <div className="container-2">
           <div className="grid grid-cols-2 gap-10">
             <FixedHeightCard
@@ -192,6 +193,94 @@ function Responsibility() {
             </FixedHeightCard>
           </div>
         </div>
+      </div>
+
+      <div className="mb-150px">
+        <div className="container-2 grid grid-cols-3 gap-8">
+          <ResponsibilityCard
+            img="images/vision-person.png"
+            title="Community"
+            desc="With more than 15 years of experience in overseeing and moderating real metaverse operations, we have developed a mature program stack that integrates the community, volunteers, staff and systems that will be deployed across our new platform. This stack includes everything from user-controls to community reporting and, where appropriate, staff review and actions. Our World Operations and World Justice programs are designed to meet the unique challenges presented with a decentralized metaverse including:"
+          />
+          <ResponsibilityCard
+            img="images/vision-lolly.png"
+            title="Creator theft and fraud"
+            desc="With more than 15 years of experience in overseeing and moderating real metaverse operations, we have developed a mature program stack that integrates the community, volunteers, staff and systems that will be deployed across our new platform. This stack includes everything from user-controls to community reporting and, where appropriate, staff review and actions. Our World Operations and World Justice programs are designed to meet the unique challenges presented with a decentralized metaverse including:"
+          />
+          <ResponsibilityCard
+            img="images/vision-light.png"
+            title="Child and vulnerable population endangerment"
+            desc="With more than 15 years of experience in overseeing and moderating real metaverse operations, we have developed a mature program stack that integrates the community, volunteers, staff and systems that will be deployed across our new platform. This stack includes everything from user-controls to community reporting and, where appropriate, staff review and actions. Our World Operations and World Justice programs are designed to meet the unique challenges presented with a decentralized metaverse including:"
+          />
+        </div>
+      </div>
+
+      <div className="mb-150px">
+        <TwoColumnsSection
+          imgHeight="h-full"
+          reverse={true}
+          ImgComponent={() => {
+            return (
+              <div className="absolute top-0 left-0 w-full p-12 h-full bg-[#14141475]">
+                <img
+                  src="images/cube.png"
+                  className="w-full h-full object-fill"
+                  alt=""
+                />
+              </div>
+            );
+          }}
+        >
+          <div className="py-50px">
+            <h4 className="fs-56px text-white uppercase font-bold mb-4 leading-[1.1]">
+              FRAUD AND TOKEN PROTECTION
+            </h4>
+            <h4 className="fs-24px text-purple uppercase font-semibold mb-4">
+              The Utherverse will endeavor to provide its customers with the
+              best of blockchain defi with the security and protection of a
+              credit card company. The primary token involved with the
+              Utherverse is in, which is a fully functional cryptocurrency that
+              exists on distributed ledgers. This is the best of cryptocurrency
+              that operates entirely outside of the Utherverse system.
+            </h4>
+
+            <p className="fs-16px text-white font-light">
+              TAt the same time, businesses and individuals operating within the
+              Utherverse will KYC with us or link to us using an approved KYC
+              metawallet from an approved partner. All of the transactions that
+              take place on our platform will use our World-currency called
+              wUTHER. wUTHER can be exchanged with the true crypto version at a
+              ratio of 1:1.
+            </p>
+          </div>
+        </TwoColumnsSection>
+      </div>
+
+      <div className="mb-100px">
+        <TwoColumnsSection img="images/dispute.png" imgHeight="h-full">
+          <div className="py-50px">
+            <h4 className="fs-56px text-white uppercase font-bold mb-4 leading-[1.1]">
+              TRANSACTIONAL DISPUTES
+            </h4>
+            <h4 className="fs-24px text-purple uppercase font-semibold mb-4">
+              While most game engines provide helpful art, pipeline tools, code
+              templates, and pre-implemented logic (patterns) to make game
+              development easier; as a rule, “networking” is an after-thought.
+            </h4>
+
+            <p className="fs-16px text-white font-light">
+              Utherverse provides an always-on, networked, virtual world hosting
+              platform to which client applications can connect to engage with
+              “instances” (scenes, game areas, or other shared experiences). The
+              platform is fully programmable both through scripts which run in
+              instances, or through components that extend the server’s core
+              functionality. Utherverse Sovereigns can develop full-scale
+              MMOR-style products that leverage Utherverse’s extensive
+              networking capabilities, built-in security, data storage
+              facilities, and other features.
+            </p>
+          </div>
+        </TwoColumnsSection>
       </div>
 
       <div className="mb-100px">

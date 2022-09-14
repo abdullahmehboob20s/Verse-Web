@@ -22,7 +22,7 @@ const visionDropdownLinks = [
   { link: "/mmor", title: "MMOR" },
   { link: "/unity", title: "Unity" },
   { link: "/responsibility", title: "Responsibility" },
-  { link: "/", title: "Operations" },
+  { link: "/operations", title: "Operations" },
 ];
 const economicDropdownLinks = [
   { link: "/", title: "Economics" },

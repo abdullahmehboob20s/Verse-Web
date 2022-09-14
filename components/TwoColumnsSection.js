@@ -19,30 +19,26 @@ function TwoColumnsSection({
           >
             {children}
           </div>
-          <div className={`${imgHeight} overflow-hidden`}>
+          <div
+            className={`${imgHeight} relative rounded-l-[50px] overflow-hidden`}
+          >
             {ImgComponent ? (
               <ImgComponent />
-            ) : (
-              <img
-                src={img}
-                className="w-full h-full rounded-l-[50px] object-cover"
-                alt=""
-              />
-            )}
+            ) : img ? (
+              <img src={img} className="w-full h-full object-cover" alt="" />
+            ) : null}
           </div>
         </>
       ) : (
         <>
-          <div className={`${imgHeight} overflow-hidden`}>
+          <div
+            className={`${imgHeight} relative rounded-r-[50px] overflow-hidden`}
+          >
             {ImgComponent ? (
               <ImgComponent />
-            ) : (
-              <img
-                src={img}
-                className="w-full h-full object-cover rounded-r-[50px]"
-                alt=""
-              />
-            )}
+            ) : img ? (
+              <img src={img} className="w-full h-full object-cover" alt="" />
+            ) : null}
           </div>
           <div className="w-full max-w-[34rem]">{children}</div>
         </>
