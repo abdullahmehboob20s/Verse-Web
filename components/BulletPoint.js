@@ -28,7 +28,11 @@ function BulletPoint({
       {Bullet ? (
         <Bullet />
       ) : (
-        <img src="images/bullet.png" className="w-4 sm:w-6 block" alt="" />
+        <img
+          src="images/bullet.png"
+          className={`w-4 sm:w-6 block ${reverse ? "rotate-180" : ""}`}
+          alt=""
+        />
       )}
       {reverse ? null : (
         <h6
