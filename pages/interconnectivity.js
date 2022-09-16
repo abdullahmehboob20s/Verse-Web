@@ -11,7 +11,7 @@ import React from "react";
 
 const Bullet = () => {
   return (
-    <div className="min-w-[2.5rem] h-[2.5rem] bg-purple-gradient-2 rounded-full"></div>
+    <div className="mt-[.2rem] sm:mt-0 min-w-[1.4rem] sm:min-w-[2rem] lg:min-w-[2.5rem] h-[1.4rem] sm:h-[2rem] lg:h-[2.5rem] bg-purple-gradient-2 rounded-full"></div>
   );
 };
 
@@ -33,7 +33,7 @@ function Interconnectivity() {
         />
       </div>
 
-      <div className="py-100px relative mb-0px">
+      <div className="pt-10 sm:pt-14 lg:pt-100px pb-100px relative mb-0px">
         <div className="container">
           <div className="w-full max-w-[60rem] mx-auto">
             <h1 className="fs-56px text-white font-bold text-center mb-5 leading-[1.3]">
@@ -63,36 +63,36 @@ function Interconnectivity() {
         />
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <div className="container-2">
-          <div className="grid grid-cols-[.8fr_1fr] items-center gap-50px">
-            <div>
-              <h1 className="fs-56px text-white font-bold mb-10">
+          <div className="grid md:grid-cols-[.8fr_1fr] items-center gap-50px">
+            <div className="md:py-10">
+              <h1 className="fs-56px text-center md:text-left text-white font-bold mb-6 lg:mb-10">
                 EXPLORE WEB 3.D
               </h1>
 
               <div className="space-y-5">
                 <BulletPoint
                   Bullet={Bullet}
-                  alignment="items-center"
+                  alignment="items-start sm:items-center"
                   spacing="space-x-5"
                   title="Users can navigate between interconnected metaverse worlds in much the same way as navigating the web’s hyperlinks."
                 />
                 <BulletPoint
                   Bullet={Bullet}
-                  alignment="items-center"
+                  alignment="items-start sm:items-center"
                   spacing="space-x-5"
                   title="Each virtual world on the network has its own URL."
                 />
                 <BulletPoint
                   Bullet={Bullet}
-                  alignment="items-center"
+                  alignment="items-start sm:items-center"
                   spacing="space-x-5"
                   title="Users move from space to space by clicking doors, interacting with game worlds, or using search engines."
                 />
                 <BulletPoint
                   Bullet={Bullet}
-                  alignment="items-center"
+                  alignment="items-start sm:items-center"
                   spacing="space-x-5"
                   title="Spaces can be Landmarked - analogous to web bookmarks - or URLs entered manually."
                 />
@@ -101,7 +101,7 @@ function Interconnectivity() {
             <div className="flex items-center justify-center">
               <img
                 src="images/girl-with-phone.png"
-                className="w-[90%]"
+                className="w-full max-w-[18rem] md:max-w-none md:w-[90%]"
                 alt=""
               />
             </div>
@@ -110,14 +110,14 @@ function Interconnectivity() {
         <EmptyBar />
       </div>
 
-      <div className="mb-150px">
+      <div className="mb-100px lg:mb-150px">
         <div className="container-2">
           <div className="w-full max-w-[50rem] mx-auto mb-16">
             <h1 className="fs-56px text-white font-medium mb-5 text-center">
               Virtual Worlds
             </h1>
 
-            <h2 className="fs-24px text-purple font-medium text-center leading-[1.3] mb-8">
+            <h2 className="fs-24px text-purple font-medium text-center leading-[1.3] mb-5 md:mb-8">
               Virtual worlds, which are analogous to webpages on the traditional
               Internet, span a number of different categories,
             </h2>
@@ -127,7 +127,7 @@ function Interconnectivity() {
             </p>
           </div>
 
-          <div className="grid grid-cols-[auto_auto] gap-100px justify-center">
+          <div className="grid sm:grid-cols-[auto_auto] gap-16 lg:gap-100px justify-center">
             <div className="space-y-4">
               <BulletPoint
                 title="Social networking"
@@ -186,7 +186,7 @@ function Interconnectivity() {
         </div>
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <div className="container-2">
           <ContactUs showImageBanner={false} />
         </div>
