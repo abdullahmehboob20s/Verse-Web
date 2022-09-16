@@ -13,9 +13,9 @@ function TwoColumnsSection({
       {reverse ? (
         <>
           <div
-            className={`w-full max-w-[38rem] lg:max-w-[42rem] lg:pl-20 xl:pl-150px ml-auto ${
-              alignTextRightInReverse ? "text-right" : "text-left"
-            } `}
+            className={`w-full max-w-[38rem] lg:max-w-[42rem] lg:pl-20 xl:pl-150px ${
+              alignTextRightInReverse ? "ml-auto" : ""
+            } ${alignTextRightInReverse ? "text-right" : "text-left"} `}
           >
             {children}
           </div>

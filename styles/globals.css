@@ -142,7 +142,7 @@
   }
 
   .fs-20px {
-    @apply text-lg xl:text-xl;
+    @apply text-base lg:text-lg xl:text-xl;
   }
 
   .fs-22px {

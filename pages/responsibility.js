@@ -11,7 +11,7 @@ import React from "react";
 const Title = ({ img, title }) => {
   return (
     <div className="flex items-center space-x-4">
-      <img src={img} className="block w-7" alt="" />
+      <img src={img} className="block w-4 md:w-6 xl:w-7" alt="" />
       <h1 className="fs-20px font-semibold text-white">{title}</h1>
     </div>
   );
@@ -24,25 +24,25 @@ function Responsibility() {
         <title>Utherverse - Build Your Metaverse</title>
       </Head>
 
-      <div className="mb-16">
+      <div className="mb-20 lg:mb-16">
         <Navbar />
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-14 lg:mb-100px">
         <TitleWithBar
           title="RESPONSIBILITY"
           subtitle="STEWARDSHIP FOR A SAFE AND FREE FUTURE METAVERSE"
         />
       </div>
 
-      <div className="mb-150px">
+      <div className="mb-100px lg:mb-150px">
         <TwoColumnsSection
           reverse={true}
           img="images/responsibilty-img-1.png"
           imgHeight="h-full"
           alignTextRightInReverse={false}
         >
-          <div className="py-50px">
+          <div className="lg:py-50px">
             <h4 className="fs-56px text-white uppercase font-bold mb-4 leading-[1.1]">
               THE SHUSTER META PATENT PORTFOLIO
             </h4>
@@ -55,7 +55,7 @@ function Responsibility() {
               community from smaller threats as well.
             </h4>
 
-            <p className="fs-16px text-white mb-10 font-light">
+            <p className="fs-16px text-white font-light">
               Our Goal is to help rebuild the damage done by social media, and
               provide an open, welcoming platform to nurture community and
               economy in the future. The metaverse will not simply be a place we
@@ -65,13 +65,13 @@ function Responsibility() {
         </TwoColumnsSection>
       </div>
 
-      <div className="mb-150px">
+      <div className="mb-100px lg:mb-150px">
         <div className="container-2">
-          <div className="grid grid-cols-2 gap-10">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-10">
             <FixedHeightCard
               bg="bg-purple-gradient-2"
               TitleComponent={() => (
-                <div className="mb-8">
+                <div className="mb-5 md:mb-6 lg:mb-8">
                   <Title
                     img="images/logo-white.svg"
                     title="A Reliable Metaverse"
@@ -91,7 +91,7 @@ function Responsibility() {
             <FixedHeightCard
               bg="bg-purple-gradient-2"
               TitleComponent={() => (
-                <div className="mb-8">
+                <div className="mb-5 md:mb-6 lg:mb-8">
                   <Title
                     img="images/logo-white.svg"
                     title="3rd Generation Technology"
@@ -112,12 +112,12 @@ function Responsibility() {
         </div>
       </div>
 
-      <div className="mb-150px">
+      <div className="mb-100px lg:mb-150px">
         <TwoColumnsSection
           img="images/responsibilty-img-1.png"
           imgHeight="h-full"
         >
-          <div className="py-50px">
+          <div className="lg:py-50px">
             <h4 className="fs-56px text-white uppercase font-bold mb-4 leading-[1.1]">
               COMMUNITY <br /> SAFETY MANDATE
             </h4>
@@ -141,13 +141,13 @@ function Responsibility() {
         </TwoColumnsSection>
       </div>
 
-      <div className="mb-200px">
+      <div className="mb-150px lg:mb-200px">
         <div className="container-2">
-          <div className="grid grid-cols-2 gap-10">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-10">
             <FixedHeightCard
               bg="bg-purple-gradient-2"
               TitleComponent={() => (
-                <div className="mb-8">
+                <div className="mb-5 md:mb-6 lg:mb-8">
                   <Title
                     img="images/logo-white.svg"
                     title="Foster the Best of Human Nature"
@@ -174,7 +174,7 @@ function Responsibility() {
             <FixedHeightCard
               bg="bg-purple-gradient-2"
               TitleComponent={() => (
-                <div className="mb-8">
+                <div className="mb-5 md:mb-6 lg:mb-8">
                   <Title
                     img="images/logo-white.svg"
                     title="Safe Environment for Commerce and Community"
@@ -195,8 +195,8 @@ function Responsibility() {
         </div>
       </div>
 
-      <div className="mb-150px">
-        <div className="container-2 grid grid-cols-3 gap-8">
+      <div className="mb-100px lg:mb-150px">
+        <div className="container-2 grid lg:grid-cols-3 gap-16 lg:gap-8">
           <ResponsibilityCard
             img="images/vision-person.png"
             title="Community"
@@ -215,23 +215,23 @@ function Responsibility() {
         </div>
       </div>
 
-      <div className="mb-150px">
+      <div className="mb-100px lg:mb-150px">
         <TwoColumnsSection
-          imgHeight="h-full"
+          imgHeight="h-auto lg:h-full"
           reverse={true}
           ImgComponent={() => {
             return (
-              <div className="absolute top-0 left-0 w-full p-12 h-full bg-[#14141475]">
+              <div className="lg:absolute top-0 left-0 w-full lg:p-12 h-auto lg:h-full bg-[#14141475]">
                 <img
                   src="images/cube.png"
-                  className="w-full h-full object-fill"
+                  className="w-full h-auto lg:h-full object-fill"
                   alt=""
                 />
               </div>
             );
           }}
         >
-          <div className="py-50px">
+          <div className="lg:py-50px">
             <h4 className="fs-56px text-white uppercase font-bold mb-4 leading-[1.1]">
               FRAUD AND TOKEN PROTECTION
             </h4>
@@ -256,9 +256,9 @@ function Responsibility() {
         </TwoColumnsSection>
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <TwoColumnsSection img="images/dispute.png" imgHeight="h-full">
-          <div className="py-50px">
+          <div className="lg:py-50px">
             <h4 className="fs-56px text-white uppercase font-bold mb-4 leading-[1.1]">
               TRANSACTIONAL DISPUTES
             </h4>
@@ -283,7 +283,7 @@ function Responsibility() {
         </TwoColumnsSection>
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <div className="container-2">
           <ContactUs showImageBanner={false} />
         </div>
