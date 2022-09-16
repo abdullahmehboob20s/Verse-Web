@@ -15,18 +15,18 @@ function Mission() {
         <title>Utherverse - Mission</title>
       </Head>
 
-      <div className="mb-16">
+      <div className="mb-20 lg:mb-16">
         <Navbar />
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <TitleWithBar
           title="MISSION"
           subtitle="THE UTHERVERSE - BEST OF ALL WORLDS"
         />
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <TwoColumnsSection img="images/mission-1.png">
           <h2 className="fs-56px text-gradient-purple font-bold mb-6">
             METAVERSE
@@ -46,7 +46,7 @@ function Mission() {
         </TwoColumnsSection>
       </div>
 
-      <div className="mb-150px">
+      <div className="mb-100px lg:mb-150px">
         <TwoColumnsSection img="images/mission-2.png" reverse={true}>
           <h2 className="fs-56px text-gradient-purple font-bold mb-6">
             THE NEXT GENERATION <br /> OF THE INTERNET
@@ -68,22 +68,24 @@ function Mission() {
         </TwoColumnsSection>
       </div>
 
-      <div className="mb-150px">
-        <div className="max-w-[26rem] mx-auto mb-16">
-          <h4 className="fs-28px font-bold text-white text-center leading-[1.3] mb-2">
-            “The Visionary starts with a clean piece of paper and re-imagines
-            the world.”
-          </h4>
-          <p className="text-center text-white opacity-60 font-light">
-            - Macolm Gladwell
-          </p>
+      <div className="mb-100px lg:mb-150px">
+        <div className="container-2">
+          <div className="max-w-[26rem] mx-auto mb-16">
+            <h4 className="fs-28px font-bold text-white text-center leading-[1.3] mb-2">
+              “The Visionary starts with a clean piece of paper and re-imagines
+              the world.”
+            </h4>
+            <p className="text-center fs-16px text-white opacity-60 font-light">
+              - Macolm Gladwell
+            </p>
+          </div>
         </div>
         <SocialLinks />
       </div>
 
-      <div className="mb-150px">
+      <div className="mb-100px lg:mb-150px">
         <div className="container-2 relative">
-          <div className="max-w-[40rem] mx-auto space-y-6">
+          <div className="max-w-[30rem] xl:max-w-[40rem] mx-auto space-y-6">
             <Accordion title="Patents on Critical Technology">
               <div className="space-y-4">
                 <p className="fs-16px text-white font-bold">
@@ -163,14 +165,14 @@ function Mission() {
 
             <img
               src="images/mission-lady.png"
-              className="absolute top-[-7rem] left-[-6%] h-[34rem] -z-50"
+              className="absolute top-[-7rem] left-[-6%] h-[28rem] xl:h-[34rem] -z-50 hidden md:block"
               alt=""
             />
           </div>
         </div>
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <TwoColumnsSection img="images/mission-3.png">
           <h2 className="fs-56px text-gradient-purple font-bold mb-6">
             EMPOWER COMMUNITY
@@ -189,32 +191,38 @@ function Mission() {
         </TwoColumnsSection>
       </div>
 
-      <div className="mb-100px">
-        <TwoColumnsSection img="images/mission-4.png" reverse={true}>
-          <h2 className="fs-56px text-gradient-purple font-bold mb-6">
-            SHEPHERDS <br /> TO METAVERSE CRITICAL IP
-          </h2>
+      <div className="mb-20 lg:mb-100px">
+        <TwoColumnsSection
+          img="images/mission-4.png"
+          reverse={true}
+          imgHeight="h-auto lg:h-full xl:h-530px"
+        >
+          <div className="lg:py-10 xl:py-0">
+            <h2 className="fs-56px text-gradient-purple font-bold mb-6">
+              SHEPHERDS <br /> TO METAVERSE CRITICAL IP
+            </h2>
 
-          <p className="fs-18px text-white font-medium mb-6">
-            As Shepherds to metaverse critical IP, Utherverse wants to ensure
-            that no one becomes a victim of companies that are destined to fail;
-            and almost every company that has ever tried to make a metaverse
-            work has failed.
-          </p>
+            <p className="fs-18px text-white font-medium mb-6">
+              As Shepherds to metaverse critical IP, Utherverse wants to ensure
+              that no one becomes a victim of companies that are destined to
+              fail; and almost every company that has ever tried to make a
+              metaverse work has failed.
+            </p>
 
-          <p className="fs-16px text-white">
-            Virtual properties and NFTs are being sold on hype with no honest
-            prospect of ever being successfully deployed in a real metaverse. We
-            don’t want people to buy tokens based on a slick web site or video
-            if the company doesn’t actually have a business plan and a team
-            capable of building something as complex as a metaverse.
-          </p>
+            <p className="fs-16px text-white">
+              Virtual properties and NFTs are being sold on hype with no honest
+              prospect of ever being successfully deployed in a real metaverse.
+              We don’t want people to buy tokens based on a slick web site or
+              video if the company doesn’t actually have a business plan and a
+              team capable of building something as complex as a metaverse.
+            </p>
+          </div>
         </TwoColumnsSection>
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <div className="container-2">
-          <div className="max-w-[40rem] mx-auto space-y-6">
+          <div className="max-w-[30rem] xl:max-w-[40rem] mx-auto space-y-6">
             <Accordion title="Reverse Damage done by Web 2.0">
               <div className="space-y-4">
                 <p className="fs-16px text-white font-bold">
@@ -245,7 +253,7 @@ function Mission() {
         </div>
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <div className="container-2">
           <ContactUs showImageBanner={false} />
         </div>
