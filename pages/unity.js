@@ -13,18 +13,18 @@ function Unity() {
         <title>Utherverse - Build Your Metaverse</title>
       </Head>
 
-      <div className="mb-16">
+      <div className="mb-20 lg:mb-16">
         <Navbar />
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-14 lg:mb-100px">
         <TitleWithBar
           title="UNITY"
           subtitle="WE ARE A PERFECT COMPLIMENT TO UNITY"
         />
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <TwoColumnsSection
           reverse={true}
           img="images/unity-vr.png"
@@ -40,7 +40,7 @@ function Unity() {
               Tablets, Oculus, iPhone and Samsung.
             </h4>
 
-            <p className="fs-16px text-white mb-10 font-light">
+            <p className="fs-16px text-white font-light">
               From the beginning, Utherverse has been a complement to the Unity
               3D game development system. Our creators chose Unity as the
               foundation on which to build the Utherverse because it is
@@ -51,7 +51,7 @@ function Unity() {
         </TwoColumnsSection>
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <TwoColumnsSection img="images/uinty-img-1.png">
           <div>
             <h1 className="fs-56px text-white uppercase font-bold mb-4 leading-[1.1]">
@@ -80,7 +80,7 @@ function Unity() {
         </TwoColumnsSection>
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <TwoColumnsSection img="images/unity-img-2.png" reverse={true}>
           <div>
             <h1 className="fs-56px text-white uppercase font-bold mb-4 leading-[1.1]">
@@ -102,7 +102,8 @@ function Unity() {
           </div>
         </TwoColumnsSection>
       </div>
-      <div className="mb-100px">
+
+      <div className="mb-20 lg:mb-100px">
         <TwoColumnsSection img="images/unity-img-3.png">
           <div>
             <h1 className="fs-56px text-white uppercase font-bold mb-4 leading-[1.1]">
@@ -129,7 +130,8 @@ function Unity() {
           </div>
         </TwoColumnsSection>
       </div>
-      <div className="mb-100px">
+
+      <div className="mb-20 lg:mb-100px">
         <div className="container-2">
           <ContactUs showImageBanner={false} />
         </div>
