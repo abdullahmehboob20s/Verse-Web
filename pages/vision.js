@@ -14,15 +14,15 @@ function Vision() {
         <title>Utherverse - Vision</title>
       </Head>
 
-      <div className="mb-16">
+      <div className="mb-20 lg:mb-16">
         <Navbar />
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-14 lg:mb-100px">
         <TitleWithBar title="VISION" subtitle="WELCOMING IMMERSIVE COMMUNITY" />
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <TwoColumnsSection
           ImgComponent={() => {
             return (
@@ -62,7 +62,7 @@ function Vision() {
         </TwoColumnsSection>
       </div>
 
-      <div className="mb-150px">
+      <div className="mb-100px lg:mb-150px">
         <TwoColumnsSection img="images/vission-banner-2.png">
           <h2 className="fs-56px text-white font-bold mb-6">CORE VALUES</h2>
           <p className="fs-24px text-purple mb-6">
@@ -84,7 +84,7 @@ function Vision() {
       </div>
 
       <div className="container">
-        <div className="grid grid-cols-3 gap-10 mb-150px">
+        <div className="grid lg:grid-cols-3 max-w-[22rem] mx-auto lg:max-w-none gap-16 lg:gap-10 mb-100px lg:mb-150px">
           <VisionCard
             title="Community"
             img="images/vision-person.png"
@@ -128,7 +128,7 @@ function Vision() {
         </div>
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <div className="container-2">
           <ContactUs showImageBanner={false} />
         </div>
