@@ -14,11 +14,11 @@ function Vww() {
         <title>Utherverse - Vww</title>
       </Head>
 
-      <div className="mb-16">
+      <div className="mb-20 lg:mb-16">
         <Navbar />
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-14 lg:mb-100px">
         <TitleWithBar
           title={
             <>
@@ -30,7 +30,7 @@ function Vww() {
         />
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <TwoColumnsSection img="images/vww-img-1.png" reverse={true}>
           <p className="fs-28px text-purple font-bold mb-6 leading-[1.2]">
             The VWW® is the next stage in the evolution of the World Wide Web.
@@ -48,9 +48,9 @@ function Vww() {
         </TwoColumnsSection>
       </div>
 
-      <div className="mb-150px">
+      <div className="mb-100px lg:mb-150px">
         <div className="container-2">
-          <div className="grid grid-cols-2 gap-10">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-10">
             <FixedHeightCard title="Expanding the Value of the Internet">
               <p className="fs-16px text-white font-medium">
                 Designed to bring the enormous value of the internet to
@@ -78,13 +78,13 @@ function Vww() {
         </div>
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <TwoColumnsSection
           img="images/vww-img-2.png"
           reverse={true}
           imgHeight="h-full"
         >
-          <div className="py-7">
+          <div className="lg:py-7">
             <p className="fs-56px text-white font-bold mb-6">
               DESIGNED <br /> TO REPLACE <br /> THE FLAT WEB
             </p>
@@ -110,9 +110,9 @@ function Vww() {
         </TwoColumnsSection>
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <TwoColumnsSection img="images/vww-img-3.png" imgHeight="h-full">
-          <div className="py-7">
+          <div className="lg:py-7">
             <p className="fs-56px text-white font-bold mb-6">
               INTERACTIVE <br /> TOOL SET
             </p>
@@ -140,7 +140,7 @@ function Vww() {
         </TwoColumnsSection>
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <div className="container-2">
           <ContactUs showImageBanner={false} />
         </div>
