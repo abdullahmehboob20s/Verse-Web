@@ -3,7 +3,7 @@ import React from "react";
 function TitleWithBar({ title, subtitle }) {
   return (
     <div>
-      <h1 className="fs-56px text-white font-bold text-center mb-10">
+      <h1 className="fs-56px text-white font-bold text-center mb-6 sm:mb-10">
         {title}
       </h1>
 

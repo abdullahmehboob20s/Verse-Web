@@ -17,9 +17,12 @@ function Accordion({ title, children }) {
   }, [isAccordionOpen]);
 
   return (
-    <div className="bg-purple rounded-2xl" ref={accordionRef}>
+    <div
+      className="bg-purple rounded sm:rounded-xl lg:rounded-2xl"
+      ref={accordionRef}
+    >
       <button
-        className="py-6 px-12 flex items-center justify-between w-full space-x-4"
+        className="py-3 sm:py-4 xl:py-6 px-5 sm:px-8 xl:px-12 flex items-center justify-between w-full space-x-4"
         onClick={() => setIsAccordion((val) => !val)}
       >
         <span className="text-left block fs-24px text-white font-semibold">
@@ -27,7 +30,7 @@ function Accordion({ title, children }) {
         </span>
         <span className="flex">
           <IoIosArrowDown
-            className={`text-white text-2xl transition-all duration-[.3s] ${
+            className={`text-white text-xl lg:text-2xl transition-all duration-[.3s] ${
               isAccordionOpen ? "rotate-180" : "rotate-0"
             }`}
           />
@@ -38,7 +41,9 @@ function Accordion({ title, children }) {
         className="h-0 overflow-hidden transition-all duration-[.3s]"
         ref={accordionMenuRef}
       >
-        <div className="px-12 py-10 pt-0">{children}</div>
+        <div className="px-5 sm:px-8 xl:px-12 py-3 sm:py-4 xl:py-6 pt-0">
+          {children}
+        </div>
       </div>
     </div>
   );

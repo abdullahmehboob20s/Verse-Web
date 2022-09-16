@@ -154,7 +154,7 @@
   }
 
   .fs-28px {
-    @apply text-[28px];
+    @apply md:text-lg lg:text-2xl xl:text-[28px];
   }
 
   .fs-30px {
@@ -183,7 +183,7 @@
   }
 
   .fs-18px {
-    @apply text-lg;
+    @apply text-sm lg:text-base xl:text-lg;
   }
 
   .hero-video-card {
