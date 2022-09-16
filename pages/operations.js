@@ -24,7 +24,7 @@ function Responsibility() {
         <title>Utherverse - Build Your Metaverse</title>
       </Head>
 
-      <div className="mb-16">
+      <div className="mb-20 lg:mb-16">
         <Navbar />
       </div>
 
@@ -32,13 +32,13 @@ function Responsibility() {
         <TitleWithBar title="OPERATIONS" subtitle="OPERATIONS" />
       </div>
 
-      <div className="py-100px relative">
-        <div className="mb-100px">
+      <div className="py-20 lg:py-100px relative">
+        <div className="mb-20 lg:mb-100px">
           <TwoColumnsSection
             img="images/responsibilty-img-1.png"
             imgHeight="h-full"
           >
-            <div className="py-50px">
+            <div className="lg:py-50px">
               <h4 className="fs-24px text-white font-semibold mb-4">
                 Utherverse operates under the guiding principle that the
                 development of our network and its tools must be purpose driven.
@@ -66,7 +66,7 @@ function Responsibility() {
           reverse={true}
           alignTextRightInReverse={false}
         >
-          <div className="py-50px">
+          <div className="lg:py-50px">
             <h4 className="fs-24px text-white font-semibold mb-4">
               The Primary Software and IP development Unit is Utherverse
               Digital, Inc., a Canadian corporation with its main office in
@@ -94,7 +94,7 @@ function Responsibility() {
         />
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-12 lg:mb-100px">
         <div className="container-2">
           <ContactUs showImageBanner={false} />
         </div>
