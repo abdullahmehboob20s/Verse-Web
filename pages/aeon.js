@@ -26,7 +26,7 @@ function Aeon() {
         <title>Utherverse - Build Your Metaverse</title>
       </Head>
 
-      <div className="mb-16">
+      <div className="mb-20 lg:mb-16">
         <Navbar />
       </div>
 
