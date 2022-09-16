@@ -14,7 +14,7 @@ const Bullet = ({ img }) => {
     <img
       src={img}
       alt=""
-      className="min-w-[40px] xl:min-w-[50px] h-10 xl:h-[50px] rounded-full"
+      className="min-w-[32px] sm:min-w-[40px] xl:min-w-[50px] h-8 sm:h-10 xl:h-[50px] rounded-full"
     />
   );
 };
