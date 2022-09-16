@@ -9,7 +9,7 @@ import React from "react";
 
 const VBullet = () => {
   return (
-    <div className="min-w-[3.4rem] h-[3.4rem]">
+    <div className="min-w-[2rem] sm:min-w-[2.4rem] lg:min-w-[3rem] xl:min-w-[3.4rem] h-[2rem] sm:h-[2.4rem] lg:h-[3rem] xl:h-[3.4rem]">
       <img src="images/vBullet.svg" className="w-full" alt="" />
     </div>
   );
@@ -22,11 +22,11 @@ function Web3d() {
         <title>Utherverse - Web3D</title>
       </Head>
 
-      <div className="mb-16">
+      <div className="mb-20 lg:mb-16">
         <Navbar />
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-14 lg:mb-100px">
         <TitleWithBar
           title={
             <>
@@ -38,12 +38,12 @@ function Web3d() {
         />
       </div>
 
-      <div className="mb-150px">
-        <div className="container-2 grid grid-cols-2 gap-10">
-          <div className="relative">
+      <div className="mb-100px lg:mb-150px">
+        <div className="container-2 grid lg:grid-cols-2 gap-10">
+          <div className="relative flex items-center justify-center">
             <img
               src="images/glasses-girl.png"
-              className="w-1/2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+              className="w-full max-w-[6rem] sm:max-w-[8rem] lg:max-w-none lg:w-1/2 lg:absolute top-1/2 left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2"
               alt=""
             />
           </div>
@@ -61,25 +61,25 @@ function Web3d() {
             <div className="space-y-6">
               <BulletPoint
                 Bullet={VBullet}
-                spacing="space-x-6"
+                spacing="space-x-4 sm:space-x-6"
                 title="Our platform and software are the next stage in the evolution of the World Wide Web, a genuine game-changer for the Metaverse."
               />
 
               <BulletPoint
                 Bullet={VBullet}
-                spacing="space-x-6"
+                spacing="space-x-4 sm:space-x-6"
                 title="Transforming Web 2.0 into an immersive and connected VR universe for business, education, entertainment and community; which we call Web 3.D."
               />
 
               <BulletPoint
                 Bullet={VBullet}
-                spacing="space-x-6"
+                spacing="space-x-4 sm:space-x-6"
                 title="A groundbreaking, new internet software layer integrating Unity® gaming technology with the traditional web functionality for the best of the internet, gaming, and VR all in one."
               />
 
               <BulletPoint
                 Bullet={VBullet}
-                spacing="space-x-6"
+                spacing="space-x-4 sm:space-x-6"
                 title="A groundbreaking, new internet software layer integrating Unity® gaming technology with the traditional web functionality for the best of the internet, gaming, and VR all in one."
               />
             </div>
@@ -87,7 +87,7 @@ function Web3d() {
         </div>
       </div>
 
-      <div className="mb-150px">
+      <div className="mb-100px lg:mb-150px">
         <div className="container-2">
           <div className="mx-auto max-w-[30rem]">
             <h2 className="fs-28px text-white mb-2 text-center font-semibold">
@@ -101,7 +101,7 @@ function Web3d() {
         </div>
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <TwoColumnsSection img="images/web3d-img-1.png" reverse={true}>
           <h2 className="fs-56px text-white font-bold mb-6">
             NEW OPPORTUNITIES
@@ -123,7 +123,7 @@ function Web3d() {
         </TwoColumnsSection>
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <TwoColumnsSection img="images/web3d-img-2.png">
           <h2 className="fs-56px text-white font-bold mb-6">
             THE VIRTUAL INTERNET
@@ -149,7 +149,7 @@ function Web3d() {
         </TwoColumnsSection>
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <div className="container-2">
           <ContactUs showImageBanner={false} />
         </div>
