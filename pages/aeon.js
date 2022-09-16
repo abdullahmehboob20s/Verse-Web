@@ -11,7 +11,11 @@ import React from "react";
 
 const Bullet = ({ img }) => {
   return (
-    <img src={img} alt="" className="min-w-[50px] h-[50px] rounded-full" />
+    <img
+      src={img}
+      alt=""
+      className="min-w-[40px] xl:min-w-[50px] h-10 xl:h-[50px] rounded-full"
+    />
   );
 };
 
@@ -33,7 +37,7 @@ function Aeon() {
         />
       </div>
 
-      <div className="py-100px relative mb-50px">
+      <div className="py-12 md:py-20 lg:py-100px relative mb-50px">
         <div className="container-2">
           <div className="w-full max-w-[40rem]">
             <h1 className="fs-40px text-white font-bold  mb-8 leading-[1.3]">
@@ -53,14 +57,14 @@ function Aeon() {
 
         <img
           src="images/network-globe.png"
-          className="absolute bottom-[-16%] right-0 w-[80%] -z-50"
+          className="absolute top-1/2 md:bottom-[-16%] right-0 w-100% md:w-[80%] -z-50"
           alt=""
         />
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <div className="container-2">
-          <div className="grid grid-cols-2">
+          <div className="grid lg:grid-cols-2">
             <FixedHeightCard title="A Virtual Constellation">
               <p className="fs-16px text-white font-medium">
                 Other companies billing their VR spaces as “the metaverse” will
@@ -74,7 +78,7 @@ function Aeon() {
         </div>
       </div>
 
-      <div className="py-100px bg-gradient-to-r from-transparent to-[#7f20fc52]">
+      <div className="py-50px xl:py-100px bg-gradient-to-r from-transparent to-[#7f20fc52]">
         <TwoColumnsSection img="images/man.png">
           <div>
             <div className="mb-10">
@@ -118,8 +122,8 @@ function Aeon() {
         </TwoColumnsSection>
       </div>
 
-      <div className="mb-100px">
-        <div className="py-200px relative">
+      <div className="mb-20 lg:mb-100px">
+        <div className="py-100px lg:py-150px xl:py-200px relative">
           <div className="container-2">
             <h1 className="fs-34px font-bold uppercase text-center mb-4">
               MILLIONS OF INTERCONNECTED METAVERSE WORLDS
@@ -143,7 +147,7 @@ function Aeon() {
         <EmptyBar />
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <div className="container-2">
           <ContactUs showImageBanner={false} />
         </div>

@@ -165,7 +165,7 @@
     @apply text-[32px];
   }
   .fs-34px {
-    @apply text-[34px];
+    @apply text-xl lg:text-3xl xl:text-[34px];
   }
   .fs-36px {
     @apply text-[36px];
@@ -175,7 +175,7 @@
   }
 
   .fs-40px {
-    @apply text-[40px];
+    @apply text-2xl lg:text-3xl xl:text-[40px];
   }
 
   .fs-16px {
