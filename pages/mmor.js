@@ -9,7 +9,11 @@ import React from "react";
 
 const Bullet = ({ img }) => {
   return (
-    <img src={img} alt="" className="min-w-[50px] h-[50px] rounded-full" />
+    <img
+      src={img}
+      alt=""
+      className="min-w-[32px] sm:min-w-[40px] xl:min-w-[50px] h-8 sm:h-10 xl:h-[50px] rounded-full"
+    />
   );
 };
 
@@ -20,11 +24,11 @@ function Mmor() {
         <title>Utherverse - Build Your Metaverse</title>
       </Head>
 
-      <div className="mb-16">
+      <div className="mb-20 lg:mb-16">
         <Navbar />
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-14 lg:mb-100px">
         <TitleWithBar
           title="MMOR EVENTS"
           subtitle="THE NEW PARADIGM FOR GLOBAL EXPERIENCES"
@@ -37,7 +41,7 @@ function Mmor() {
           img="images/club-inner.png"
           imgHeight="h-full"
         >
-          <div className="py-50px">
+          <div className="lg:py-50px">
             <h4 className="fs-24px text-white uppercase font-bold mb-4">
               MASSIVELY MULTIUSER ONLINE REALITY EXPERIENCES ARE THE MOST
               EXCITING NEW PROPOSITION FOR THE METAVERSE!
@@ -72,9 +76,9 @@ function Mmor() {
         </TwoColumnsSection>
       </div>
 
-      <div className="py-200px">
-        <div className="container-2 grid grid-cols-[.3fr_1fr_.3fr] gap-50px items-center">
-          <div className="relative">
+      <div className="py-20 lg:py-200px">
+        <div className="container-2 sm:grid grid-cols-[.3fr_1fr_.3fr] gap-50px items-center">
+          <div className="hidden sm:block">
             <img src="images/quote.png" className="w-full" alt="" />
           </div>
           <div>
@@ -87,15 +91,15 @@ function Mmor() {
               </h1>
             </div>
           </div>
-          <div>
+          <div className="hidden sm:block">
             <img src="images/quote.png" className="w-full rotate-180" alt="" />
           </div>
         </div>
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <TwoColumnsSection img="images/people-in-bar.png" imgHeight="h-full">
-          <div className="py-50px">
+          <div className="lg:py-50px">
             <h1 className="fs-56px text-white uppercase font-bold mb-4">
               VIRTUAL FESTIVALS
             </h1>
@@ -130,7 +134,7 @@ function Mmor() {
         </TwoColumnsSection>
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <div className="container-2">
           <ContactUs showImageBanner={false} />
         </div>

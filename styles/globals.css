@@ -154,7 +154,7 @@
   }
 
   .fs-28px {
-    @apply md:text-lg lg:text-2xl xl:text-[28px];
+    @apply text-lg lg:text-2xl xl:text-[28px];
   }
 
   .fs-30px {
