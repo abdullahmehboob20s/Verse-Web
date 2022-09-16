@@ -9,7 +9,9 @@ import Head from "next/head";
 import React from "react";
 
 const Bullet = ({ img }) => {
-  return <img src={img} alt="" className="w-12 h-12 rounded-full" />;
+  return (
+    <img src={img} alt="" className="w-10 lg:w-12 h-10 lg:h-12 rounded-full" />
+  );
 };
 
 function Build() {
@@ -19,47 +21,53 @@ function Build() {
         <title>Utherverse - Build Your Metaverse</title>
       </Head>
 
-      <div className="mb-16">
+      <div className="mb-20 lg:mb-16">
         <Navbar />
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-14 lg:mb-100px">
         <TitleWithBar
           title="BUILD YOUR METAVERSE"
           subtitle="WE ARE A PERFECT COMPLIMENT TO UNITY"
         />
       </div>
 
-      <div className="mb-100px">
-        <TwoColumnsSection img="images/build-img-1.png" reverse={true}>
-          <p className="fs-56px text-white font-bold mb-6 leading-[1.2]">
-            BECOME <br /> A SOVEREIGN
-          </p>
-          <p className="fs-24px text-purple font-bold mb-6 leading-[1.2]">
-            Utherverse Provides the Tools and Expertise
-          </p>
+      <div className="mb-20 lg:mb-100px">
+        <TwoColumnsSection
+          img="images/build-img-1.png"
+          imgHeight="h-auto lg:h-full"
+          reverse={true}
+        >
+          <div className="lg:py-8">
+            <p className="fs-56px text-white font-bold mb-6 leading-[1.2]">
+              BECOME <br /> A SOVEREIGN
+            </p>
+            <p className="fs-24px text-purple font-bold mb-6 leading-[1.2]">
+              Utherverse Provides the Tools and Expertise
+            </p>
 
-          <p className="fs-16px text-white mb-6">
-            Using the power of the Utherverse, you can quickly tilt up your own
-            Sovereign Metaverse!
-          </p>
-          <p className="fs-16px text-white font-bold">A Virtual Sovereign</p>
-          <p className="fs-16px text-white mb-6">
-            As a Sovereign, you own your own metaverse, hosted on our platform
-            and interconnected to a whole constellation of virtual worlds. Your
-            fans, followers and customers go straight to your metaverse; but you
-            also earn royalties from everything they do anywhere they go on the
-            entire network.
-          </p>
-          <p className="fs-16px text-white">
-            We provide full back-end support, servers, hosting and secure
-            blockchain payment gateways, as well as in-world payment systems for
-            gas free, frictionless micro-transactions.
-          </p>
+            <p className="fs-16px text-white mb-6">
+              Using the power of the Utherverse, you can quickly tilt up your
+              own Sovereign Metaverse!
+            </p>
+            <p className="fs-16px text-white font-bold">A Virtual Sovereign</p>
+            <p className="fs-16px text-white mb-6">
+              As a Sovereign, you own your own metaverse, hosted on our platform
+              and interconnected to a whole constellation of virtual worlds.
+              Your fans, followers and customers go straight to your metaverse;
+              but you also earn royalties from everything they do anywhere they
+              go on the entire network.
+            </p>
+            <p className="fs-16px text-white">
+              We provide full back-end support, servers, hosting and secure
+              blockchain payment gateways, as well as in-world payment systems
+              for gas free, frictionless micro-transactions.
+            </p>
+          </div>
         </TwoColumnsSection>
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <TwoColumnsSection img="images/build-img-2.png">
           <p className="fs-56px text-white font-bold mb-6 leading-[1.2]">
             YOUR VISION
@@ -85,13 +93,13 @@ function Build() {
         </TwoColumnsSection>
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <TwoColumnsSection
           img="images/build-img-3.png"
-          imgHeight="h-full"
+          imgHeight="h-auto lg:h-full"
           reverse={true}
         >
-          <div className="py-8">
+          <div className="lg:py-8">
             <div className="mb-50px">
               <p className="fs-56px text-white font-bold mb-6 leading-[1.2]">
                 UTHERVERSE SOVEREIGN SERVICES (USS™)
@@ -142,9 +150,9 @@ function Build() {
         </TwoColumnsSection>
       </div>
 
-      <div className="mb-150px">
+      <div className="mb-100px lg:mb-150px">
         <div className="container-2">
-          <div className="grid grid-cols-2 gap-10">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-10">
             <FixedHeightCard bg="bg-purple-gradient-2" title="Our Network">
               <p className="fs-16px text-white font-medium">
                 By being a part of our network, you’ll have instant access to a
@@ -174,7 +182,7 @@ function Build() {
         </div>
       </div>
 
-      <div className="mb-100px">
+      <div className="mb-20 lg:mb-100px">
         <div className="container-2">
           <ContactUs showImageBanner={false} />
         </div>
