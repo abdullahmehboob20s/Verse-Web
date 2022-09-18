@@ -213,6 +213,7 @@ function Mission() {
             img="images/mission-4.png"
             reverse={true}
             imgHeight="h-auto lg:h-full xl:h-530px"
+            imgClassName="scale-110"
           >
             <div className="lg:py-10 xl:py-0">
               <h2 className="fs-56px text-gradient-purple font-bold mb-6">

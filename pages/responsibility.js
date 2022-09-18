@@ -267,7 +267,11 @@ function Responsibility() {
         </div>
 
         <div className="mb-20 lg:mb-100px">
-          <TwoColumnsSection img="images/dispute.png" imgHeight="h-full">
+          <TwoColumnsSection
+            img="images/dispute.png"
+            imgHeight="h-full"
+            imgClassName="scale-110"
+          >
             <div className="lg:py-50px">
               <h4 className="fs-56px text-white uppercase font-bold mb-4 leading-[1.1]">
                 TRANSACTIONAL DISPUTES

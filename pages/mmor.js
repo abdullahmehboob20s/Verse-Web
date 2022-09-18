@@ -42,6 +42,7 @@ function Mmor() {
             img="images/club-inner.png"
             imgHeight="h-full"
             imgAboveInMobile={true}
+            imgClassName="scale-110"
           >
             <div className="lg:py-50px">
               <h4 className="fs-24px text-white uppercase font-bold mb-4">
@@ -104,7 +105,11 @@ function Mmor() {
         </div>
 
         <div className="mb-20 lg:mb-100px">
-          <TwoColumnsSection img="images/people-in-bar.png" imgHeight="h-full">
+          <TwoColumnsSection
+            img="images/people-in-bar.png"
+            imgHeight="h-full"
+            imgClassName="scale-110"
+          >
             <div className="lg:py-50px">
               <h1 className="fs-56px text-white uppercase font-bold mb-4">
                 VIRTUAL FESTIVALS

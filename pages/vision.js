@@ -68,7 +68,10 @@ function Vision() {
         </div>
 
         <div className="mb-100px lg:mb-150px">
-          <TwoColumnsSection img="images/vission-banner-2.png">
+          <TwoColumnsSection
+            img="images/vission-banner-2.png"
+            imgClassName="scale-110"
+          >
             <h2 className="fs-56px text-white font-bold mb-6">CORE VALUES</h2>
             <p className="fs-24px text-purple mb-6">
               It is the purpose and intention of Utherverse, to create a new

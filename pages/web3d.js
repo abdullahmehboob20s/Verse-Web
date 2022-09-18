@@ -129,7 +129,10 @@ function Web3d() {
         </div>
 
         <div className="mb-20 lg:mb-100px">
-          <TwoColumnsSection img="images/web3d-img-2.png">
+          <TwoColumnsSection
+            img="images/web3d-img-2.png"
+            imgClassName="scale-110"
+          >
             <h2 className="fs-56px text-white font-bold mb-6">
               THE VIRTUAL INTERNET
             </h2>

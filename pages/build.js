@@ -72,7 +72,10 @@ function Build() {
         </div>
 
         <div className="mb-20 lg:mb-100px">
-          <TwoColumnsSection img="images/build-img-2.png">
+          <TwoColumnsSection
+            img="images/build-img-2.png"
+            imgClassName="scale-110"
+          >
             <p className="fs-56px text-white font-bold mb-6 leading-[1.2]">
               YOUR VISION
             </p>

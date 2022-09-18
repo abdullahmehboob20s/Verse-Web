@@ -9,6 +9,7 @@ function TwoColumnsSection({
   alignTextRightInReverse = true,
   imgBelowInMobile = false,
   imgAboveInMobile = false,
+  imgClassName,
 }) {
   return (
     <div className="grid w-[90%] mx-auto lg:w-full grid-cols-1 lg:grid-cols-2 items-center gap-6 sm:gap-8 md:gap-50px">
@@ -31,7 +32,11 @@ function TwoColumnsSection({
             {ImgComponent ? (
               <ImgComponent />
             ) : img ? (
-              <img src={img} className="w-full h-full object-cover" alt="" />
+              <img
+                src={img}
+                className={`w-full h-full object-cover ${imgClassName}`}
+                alt=""
+              />
             ) : null}
           </div>
         </>
@@ -47,7 +52,11 @@ function TwoColumnsSection({
             {ImgComponent ? (
               <ImgComponent />
             ) : img ? (
-              <img src={img} className="w-full h-full object-cover" alt="" />
+              <img
+                src={img}
+                className={`w-full h-full object-cover ${imgClassName}`}
+                alt=""
+              />
             ) : null}
           </div>
           <div className="w-full max-w-[38rem] lg:max-w-[42rem] lg:pr-20 xl:pr-150px">

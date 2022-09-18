@@ -38,6 +38,7 @@ function Responsibility() {
             <TwoColumnsSection
               img="images/operation-img-1.png"
               imgHeight="h-full"
+              imgClassName="scale-110"
             >
               <div className="lg:py-50px">
                 <h4 className="fs-24px text-white font-semibold mb-4">

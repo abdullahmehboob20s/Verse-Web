@@ -28,10 +28,19 @@ function Unity() {
         <div className="mb-20 lg:mb-100px">
           <TwoColumnsSection
             reverse={true}
-            img="images/unity-vr.png"
-            imgHeight="h-auto"
             alignTextRightInReverse={false}
             imgAboveInMobile={true}
+            ImgComponent={() => {
+              return (
+                <div className="flex items-center justify-center h-full">
+                  <img
+                    src="images/unity-vr.png"
+                    alt=""
+                    className="w-full h-auto"
+                  />
+                </div>
+              );
+            }}
           >
             <div>
               <h4 className="fs-56px text-white uppercase font-bold mb-4 leading-[1.1]">
@@ -55,7 +64,10 @@ function Unity() {
         </div>
 
         <div className="mb-20 lg:mb-100px">
-          <TwoColumnsSection img="images/uinty-img-1.png">
+          <TwoColumnsSection
+            img="images/uinty-img-1.png"
+            imgClassName="scale-110"
+          >
             <div>
               <h1 className="fs-56px text-white uppercase font-bold mb-4 leading-[1.1]">
                 THE VIRTUAL INTERNET
@@ -112,7 +124,10 @@ function Unity() {
         </div>
 
         <div className="mb-20 lg:mb-100px">
-          <TwoColumnsSection img="images/unity-img-3.png">
+          <TwoColumnsSection
+            img="images/unity-img-3.png"
+            imgClassName="scale-110"
+          >
             <div>
               <h1 className="fs-56px text-white uppercase font-bold mb-4 leading-[1.1]">
                 NETWORKED <br /> VIRTUAL REALITY

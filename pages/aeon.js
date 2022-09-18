@@ -80,7 +80,7 @@ function Aeon() {
         </div>
 
         <div className="py-50px xl:py-100px bg-gradient-to-r from-transparent to-[#7f20fc52]">
-          <TwoColumnsSection img="images/man.png">
+          <TwoColumnsSection img="images/man.png" imgClassName="scale-110">
             <div>
               <div className="mb-10">
                 <h1 className="fs-56px text-white font-bold mb-6">
