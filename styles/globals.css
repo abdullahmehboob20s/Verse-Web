@@ -58,6 +58,10 @@
     @apply bg-black overflow-x-hidden;
   }
 
+  body {
+    @apply overflow-x-hidden;
+  }
+
   /* GLOBALS */
 
   p,

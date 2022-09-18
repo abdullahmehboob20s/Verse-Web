@@ -58,12 +58,12 @@ function Aeon() {
 
           <img
             src="images/network-globe.png"
-            className="absolute top-1/2 md:bottom-[-16%] right-0 w-100% md:w-[80%] -z-50"
+            className="absolute top-[0%] bottom-[unset] md:top-[unset] md:bottom-[-16%] right-0 w-[70rem] max-w-none -z-50"
             alt=""
           />
         </div>
 
-        <div className="mb-20 lg:mb-100px">
+        <div className="mb-20 lg:mb-100px relative z-50">
           <div className="container-2">
             <div className="grid lg:grid-cols-2">
               <FixedHeightCard title="A Virtual Constellation">

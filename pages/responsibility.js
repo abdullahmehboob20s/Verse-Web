@@ -42,6 +42,7 @@ function Responsibility() {
             img="images/responsibilty-img-1.png"
             imgHeight="h-full"
             alignTextRightInReverse={false}
+            imgAboveInMobile={true}
           >
             <div className="lg:py-50px">
               <h4 className="fs-56px text-white uppercase font-bold mb-4 leading-[1.1]">
@@ -116,10 +117,7 @@ function Responsibility() {
         </div>
 
         <div className="mb-100px lg:mb-150px">
-          <TwoColumnsSection
-            img="images/responsibilty-img-1.png"
-            imgHeight="h-full"
-          >
+          <TwoColumnsSection img="images/resp-img-2.png" imgHeight="h-full">
             <div className="lg:py-50px">
               <h4 className="fs-56px text-white uppercase font-bold mb-4 leading-[1.1]">
                 COMMUNITY <br /> SAFETY MANDATE
@@ -229,6 +227,7 @@ function Responsibility() {
           <TwoColumnsSection
             imgHeight="h-auto lg:h-full"
             reverse={true}
+            imgAboveInMobile={true}
             ImgComponent={() => {
               return (
                 <div className="lg:absolute top-0 left-0 w-full lg:p-12 h-auto lg:h-full bg-[#14141475]">

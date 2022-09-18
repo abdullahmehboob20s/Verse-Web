@@ -103,7 +103,11 @@ function Web3d() {
         </div>
 
         <div className="mb-20 lg:mb-100px">
-          <TwoColumnsSection img="images/web3d-img-1.png" reverse={true}>
+          <TwoColumnsSection
+            img="images/web3d-img-1.png"
+            reverse={true}
+            imgAboveInMobile={true}
+          >
             <h2 className="fs-56px text-white font-bold mb-6">
               NEW OPPORTUNITIES
             </h2>

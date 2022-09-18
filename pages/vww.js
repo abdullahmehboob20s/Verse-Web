@@ -84,6 +84,7 @@ function Vww() {
             img="images/vww-img-2.png"
             reverse={true}
             imgHeight="h-full"
+            imgAboveInMobile={true}
           >
             <div className="lg:py-7">
               <p className="fs-56px text-white font-bold mb-6">

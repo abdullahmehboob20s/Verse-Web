@@ -31,6 +31,7 @@ function Unity() {
             img="images/unity-vr.png"
             imgHeight="h-auto"
             alignTextRightInReverse={false}
+            imgAboveInMobile={true}
           >
             <div>
               <h4 className="fs-56px text-white uppercase font-bold mb-4 leading-[1.1]">
@@ -84,7 +85,11 @@ function Unity() {
         </div>
 
         <div className="mb-20 lg:mb-100px">
-          <TwoColumnsSection img="images/unity-img-2.png" reverse={true}>
+          <TwoColumnsSection
+            img="images/unity-img-2.png"
+            reverse={true}
+            imgAboveInMobile={true}
+          >
             <div>
               <h1 className="fs-56px text-white uppercase font-bold mb-4 leading-[1.1]">
                 UNLIKE ANY <br /> STAND-ALONE VR EXPERIENCE

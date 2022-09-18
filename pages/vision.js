@@ -28,6 +28,7 @@ function Vision() {
 
         <div className="mb-20 lg:mb-100px">
           <TwoColumnsSection
+            imgAboveInMobile={true}
             ImgComponent={() => {
               return (
                 <video

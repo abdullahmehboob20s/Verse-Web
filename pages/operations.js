@@ -33,10 +33,10 @@ function Responsibility() {
           <TitleWithBar title="OPERATIONS" subtitle="OPERATIONS" />
         </div>
 
-        <div className="py-20 lg:py-100px relative z-20">
+        <div className="pt-12 py-20 lg:py-100px relative z-20">
           <div className="mb-20 lg:mb-100px">
             <TwoColumnsSection
-              img="images/responsibilty-img-1.png"
+              img="images/operation-img-1.png"
               imgHeight="h-full"
             >
               <div className="lg:py-50px">

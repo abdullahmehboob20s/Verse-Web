@@ -20,7 +20,7 @@ function Mission() {
           <Navbar />
         </div>
 
-        <div className="mb-20 lg:mb-100px">
+        <div className="mb-12 lg:mb-100px">
           <TitleWithBar
             title="MISSION"
             subtitle="THE UTHERVERSE - BEST OF ALL WORLDS"
@@ -34,7 +34,7 @@ function Mission() {
             alt=""
           />
 
-          <TwoColumnsSection img="images/mission-1.png">
+          <TwoColumnsSection img="images/mission-1.png" imgBelowInMobile={true}>
             <h2 className="fs-56px text-gradient-purple font-bold mb-6">
               METAVERSE
             </h2>
@@ -93,7 +93,7 @@ function Mission() {
         <div className="mb-100px lg:mb-150px relative">
           <img
             src="images/blured-icon.png"
-            className="absolute top-[-70%] left-[-20%] -z-50"
+            className="absolute top-[-18rem] left-[-18rem] -z-50"
             alt=""
           />
           <div className="container-2 relative">
@@ -185,7 +185,7 @@ function Mission() {
         </div>
 
         <div className="mb-20 lg:mb-100px">
-          <TwoColumnsSection img="images/mission-3.png">
+          <TwoColumnsSection img="images/mission-3.png" imgBelowInMobile={true}>
             <h2 className="fs-56px text-gradient-purple font-bold mb-6">
               EMPOWER COMMUNITY
             </h2>

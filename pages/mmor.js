@@ -41,6 +41,7 @@ function Mmor() {
             reverse={true}
             img="images/club-inner.png"
             imgHeight="h-full"
+            imgAboveInMobile={true}
           >
             <div className="lg:py-50px">
               <h4 className="fs-24px text-white uppercase font-bold mb-4">

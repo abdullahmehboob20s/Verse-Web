@@ -7,6 +7,8 @@ function TwoColumnsSection({
   ImgComponent,
   imgHeight = "h-auto lg:h-[430px] xl:h-530px",
   alignTextRightInReverse = true,
+  imgBelowInMobile = false,
+  imgAboveInMobile = false,
 }) {
   return (
     <div className="grid w-[90%] mx-auto lg:w-full grid-cols-1 lg:grid-cols-2 items-center gap-6 sm:gap-8 md:gap-50px">
@@ -20,7 +22,11 @@ function TwoColumnsSection({
             {children}
           </div>
           <div
-            className={`${imgHeight} relative lg:rounded-l-[50px] overflow-hidden`}
+            className={`${imgHeight} ${
+              imgAboveInMobile
+                ? "row-start-1 row-end-2 lg:row-start-auto lg:row-end-auto"
+                : ""
+            } relative rounded-3xl lg:rounded-none lg:rounded-l-[50px] overflow-hidden`}
           >
             {ImgComponent ? (
               <ImgComponent />
@@ -32,7 +38,11 @@ function TwoColumnsSection({
       ) : (
         <>
           <div
-            className={`${imgHeight} relative lg:rounded-r-[50px] overflow-hidden`}
+            className={`${imgHeight} ${
+              imgBelowInMobile
+                ? "row-start-2 row-end-3 lg:row-start-auto lg:row-end-auto"
+                : ""
+            } relative rounded-3xl lg:rounded-none lg:rounded-r-[50px] overflow-hidden`}
           >
             {ImgComponent ? (
               <ImgComponent />

@@ -38,6 +38,7 @@ function Build() {
             img="images/build-img-1.png"
             imgHeight="h-auto lg:h-full"
             reverse={true}
+            imgAboveInMobile={true}
           >
             <div className="lg:py-8">
               <p className="fs-56px text-white font-bold mb-6 leading-[1.2]">
@@ -101,6 +102,7 @@ function Build() {
             img="images/build-img-3.png"
             imgHeight="h-auto lg:h-full"
             reverse={true}
+            imgAboveInMobile={true}
           >
             <div className="lg:py-8">
               <div className="mb-50px">
