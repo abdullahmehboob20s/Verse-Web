@@ -18,7 +18,7 @@ function Unity() {
           <Navbar />
         </div>
 
-        <div className="mb-14 lg:mb-100px">
+        <div className="mb-8 lg:mb-100px">
           <TitleWithBar
             title="UNITY"
             subtitle="WE ARE A PERFECT COMPLIMENT TO UNITY"
