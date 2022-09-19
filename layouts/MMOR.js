@@ -5,14 +5,14 @@ import React from "react";
 const LeftSection = () => {
   return (
     <video
-      src="images/restaurant-plaza.mp4"
-      muted={true}
-      autoPlay={true}
-      loop={true}
-      defaultmuted={true}
-      playsinline={true}
-      className="absolute top-0 left-0 w-full h-full object-cover"
-    ></video>
+      muted
+      autoPlay
+      loop
+      playsInline
+      className="absolute top-0 left-0 object-cover w-full h-full"
+    >
+      <source src="images/restaurant-plaza.mp4"></source>
+    </video>
   );
 };
 
@@ -22,7 +22,7 @@ const RightSection = () => {
       <h1 className="fs-56px leading-[1] font-bold text-white mb-2">
         MMOR<sup className="font-medium text-[.5em] align-super">™</sup>
       </h1>
-      <h4 className="text-purple fs-24px font-medium mb-7">
+      <h4 className="font-medium text-purple fs-24px mb-7">
         Massively Multiuser Online Reality
       </h4>
       <p className="fs-16px font-normal mb-8 text-white leading-[1.6]">

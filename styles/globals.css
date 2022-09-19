@@ -55,7 +55,7 @@
   }
 
   html {
-    @apply bg-black overflow-x-hidden;
+    @apply overflow-x-hidden bg-black;
   }
 
   body {
@@ -191,7 +191,7 @@
   }
 
   .hero-video-card {
-    @apply flex-1 relative;
+    @apply relative flex-1;
   }
   .hero-video-card video {
     @apply absolute top-0 left-[50%] h-full w-full translate-x-[-50%] object-cover;
@@ -205,7 +205,7 @@
   }
 
   .footer-links-title {
-    @apply text-base lg:text-lg xl:text-2xl text-white font-bold mb-4;
+    @apply mb-4 text-base font-bold text-white lg:text-lg xl:text-2xl;
   }
 
   .footer-link {
@@ -219,6 +219,26 @@
   .footer-info-btn {
     @apply py-[0.2rem] xl:py-[0.3rem] px-3 xl:px-4 bg-purple-gradient-2 text-white text-xs font-medium rounded-sm;
   }
+}
+
+.skew {
+  transform: skewX(15deg);
+  -webkit-transform: skewX(15deg);
+  -moz-transform: skewX(15deg);
+  -o-transform: skewX(15deg);
+}
+
+.-skew {
+  transform: skewX(-15deg);
+  -webkit-transform: skewX(-15deg);
+  -moz-transform: skewX(-15deg);
+  -o-transform: skewX(-15deg);
+}
+.-translate {
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
 
 .white-icon {
