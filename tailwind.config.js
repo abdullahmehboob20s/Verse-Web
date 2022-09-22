@@ -27,6 +27,7 @@ module.exports = {
       xs: "500px",
       ...defaultTheme.screens,
     },
+
     extend: {
       fontFamily: {
         worksans: "worksans",
@@ -37,6 +38,18 @@ module.exports = {
         "100px": "100px",
         "40px": "40px",
         "56px": "56px",
+      },
+      lineHeight: {
+        1: "1",
+        "1_1": "1.1",
+        "1_2": "1.2",
+        "1_3": "1.3",
+        "1_4": "1.4",
+        "1_5": "1.5",
+        "1_6": "1.6",
+        "1_7": "1.7",
+        "1_8": "1.8",
+        "1_9": "1.9",
       },
       borderWidth: {
         "1px": "1px",
