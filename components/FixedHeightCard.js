@@ -6,6 +6,7 @@ function FixedHeightCard({
   title,
   bg = "bg-light-purple-to-dark",
   TitleComponent,
+  titleClassName,
 }) {
   return (
     <div
@@ -14,7 +15,11 @@ function FixedHeightCard({
       {TitleComponent ? (
         <TitleComponent />
       ) : title ? (
-        <h1 className="fs-20px font-semibold text-white mb-4 md:mb-8">
+        <h1
+          className={`fs-20px font-semibold text-white mb-4 md:mb-8 ${
+            titleClassName && titleClassName
+          }`}
+        >
           {title}
         </h1>
       ) : null}
