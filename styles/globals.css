@@ -172,7 +172,7 @@
     @apply text-xl lg:text-3xl xl:text-[34px];
   }
   .fs-36px {
-    @apply text-[36px];
+    @apply text-2xl lg:text-3xl xl:text-[36px];
   }
   .fs-38px {
     @apply text-[38px];
@@ -218,6 +218,14 @@
 
   .footer-info-btn {
     @apply py-[0.2rem] xl:py-[0.3rem] px-3 xl:px-4 bg-purple-gradient-2 text-white text-xs font-medium rounded-sm;
+  }
+
+  /* GRIDS */
+  .two-cols-grid {
+    @apply grid md:grid-cols-2 gap-8 lg:gap-10;
+  }
+  .three-cols-grid {
+    @apply grid lg:grid-cols-3 gap-8 lg:gap-10;
   }
 }
 
