@@ -3,11 +3,10 @@ import BuiltOnUnity from "layouts/BuiltOnUnity";
 import Contact from "layouts/Contact";
 import Divider from "layouts/Divider";
 import Economy from "layouts/Economy";
-import Footer from "layouts/Footer";
 import Hero from "layouts/Hero";
 import InterConnectivity from "layouts/InterConnectivity";
+import Layout from "layouts/Layout";
 import MMOR from "layouts/MMOR";
-import Navbar from "layouts/Navbar";
 import OwnMetaverse from "layouts/OwnMetaverse";
 import PoweredBy from "layouts/PoweredBy";
 import Protected from "layouts/Protected";
@@ -18,12 +17,11 @@ import Head from "next/head";
 
 function Index() {
   return (
-    <div>
+    <Layout showContactUs={false}>
       <Head>
         <title>Utherverse</title>
       </Head>
 
-      <Navbar />
       <div className="mb-16 lg:mb-100px">
         <Hero />
       </div>
@@ -53,8 +51,7 @@ function Index() {
       <div className="mb-16 sm:mb-100px lg:mb-200px">
         <Contact />
       </div>
-      <Footer />
-    </div>
+    </Layout>
   );
 }
 
