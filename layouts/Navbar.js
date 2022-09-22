@@ -25,7 +25,7 @@ const visionDropdownLinks = [
   { link: "/operations", title: "Operations" },
 ];
 const economicDropdownLinks = [
-  { link: "/", title: "Economics" },
+  { link: "/economics", title: "Economics" },
   { link: "/", title: "Tokenomics" },
   { link: "/", title: "Web 3.D" },
   { link: "/", title: "fNFt" },
