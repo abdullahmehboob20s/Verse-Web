@@ -279,3 +279,12 @@
   background: #598ff1;
   border-radius: 10px;
 }
+
+.border-table {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+.border-table td {
+  border: 1px solid;
+}
