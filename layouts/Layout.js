@@ -9,6 +9,7 @@ function Layout({
   className,
   showContactUs = true,
   showContactUsImageBanner = false,
+  showFooter = true,
 }) {
   return (
     <div className={className}>
@@ -26,7 +27,7 @@ function Layout({
           </div>
         ) : null}
 
-        <Footer />
+        {showFooter ? <Footer /> : null}
       </div>
     </div>
   );

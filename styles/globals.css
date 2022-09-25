@@ -166,7 +166,7 @@
   }
 
   .fs-32px {
-    @apply text-[32px];
+    @apply text-xl lg:text-3xl xl:text-[32px];
   }
   .fs-34px {
     @apply text-xl lg:text-3xl xl:text-[34px];
@@ -226,6 +226,18 @@
   }
   .three-cols-grid {
     @apply grid lg:grid-cols-3 gap-8 lg:gap-10;
+  }
+
+  .divider-container {
+    @apply relative;
+  }
+
+  .divider-container::before {
+    @apply content-[""] absolute top-0 left-1/2 z-10 -translate-x-1/2 hidden lg:block w-[1px] h-full bg-purple-3;
+  }
+
+  .divider-layout {
+    @apply grid lg:grid-cols-[1fr_auto_1fr];
   }
 }
 
@@ -287,4 +299,17 @@
 
 .border-table td {
   border: 1px solid;
+}
+
+.neon {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #b463f6, 0 0 30px #b463f6;
+}
+.neon-secondary {
+  color: #5ce2e2;
+  text-shadow: 0 0 10px #5ce2e2, 0 0 15px #5ce2e2;
+}
+
+#fnft-hero {
+  background: url(../public/images/fnft-bg.png) no-repeat center center fixed;
 }
