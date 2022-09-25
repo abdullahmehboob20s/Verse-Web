@@ -13,6 +13,7 @@ module.exports = {
       black: "#000",
       "purple-light": "#c498ff",
       purple: "#7e20fc",
+      "purple-dark": "#150031",
       "purple-2": "#481986",
       "purple-3": "#B463F6",
       darkPurple: "#2a0b53",
