@@ -9,6 +9,7 @@ function BulletPoint({
   spacing = "space-x-3",
   reverse = false,
   textClassName = "fs-16px text-white font-medium",
+  bulletClassname,
 }) {
   return (
     <div
@@ -30,7 +31,9 @@ function BulletPoint({
       ) : (
         <img
           src="images/bullet.png"
-          className={`w-4 sm:w-6 block ${reverse ? "rotate-180" : ""}`}
+          className={`w-4 sm:w-6 block ${
+            reverse ? "rotate-180" : ""
+          } ${bulletClassname}`}
           alt=""
         />
       )}
