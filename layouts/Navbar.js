@@ -110,7 +110,7 @@ function Navbar() {
                 Legacy
               </a>
             </Link>
-            <Link href="/">
+            <Link href="/career">
               <a className="py-1 lg:py-[2px] px-3 xl:px-[20px] text-sm lg:text-xs xl:text-base font-medium rounded-[3px] transition-all duration-.3s hover:bg-purple-gradient border-1px border-purple lg:border-none">
                 Careers
               </a>
