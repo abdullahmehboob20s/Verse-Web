@@ -1,9 +1,10 @@
 import React from "react";
 
-function PatentCard({ index }) {
+function PatentCard({ index, img }) {
   return (
-    <div>
-      <p className="fs-24px text-white font-medium">{index}</p>
+    <div className="space-y-2">
+      <p className="fs-24px text-white font-medium text-center">{index}</p>
+      <img src={img} className="h-[120px]" alt="" />
     </div>
   );
 }
