@@ -313,3 +313,11 @@
 #fnft-hero {
   background: url(../public/images/fnft-bg.png) no-repeat center center fixed;
 }
+
+.job-card {
+  transition: 0.3s ease;
+}
+
+.job-card:hover {
+  box-shadow: 0px 0px 20px #656df5a3;
+}
