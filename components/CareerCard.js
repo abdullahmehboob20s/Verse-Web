@@ -23,15 +23,19 @@ function CareerCard({ jobTitle, position, salary, children }) {
     >
       <button
         onClick={() => setIsAccordion((val) => !val)}
-        className="flex items-center justify-between w-full py-6 px-10"
+        className="flex items-center justify-between w-full py-4 md:py-6 px-6 md:px-10"
       >
         <div>
-          <h1 className="fs-32px text-white text-left font-medium mb-4">
+          <h1 className="fs-32px text-white text-left font-medium mb-3 sm:mb-4">
             {jobTitle}
           </h1>
           <div className="space-y-1 text-left">
-            <p className="fs-16px font-medium">Poistion: {position}</p>
-            <p className="fs-16px font-medium">Salary: {salary}</p>
+            <p className="text-xs sm:text-sm xl:text-base font-medium">
+              Poistion: {position}
+            </p>
+            <p className="text-xs sm:text-sm xl:text-base font-medium">
+              Salary: {salary}
+            </p>
           </div>
         </div>
         <span className="flex">
@@ -47,7 +51,7 @@ function CareerCard({ jobTitle, position, salary, children }) {
         className="h-0 overflow-hidden transition-all duration-[.3s]"
         ref={accordionMenuRef}
       >
-        <div className="py-6 px-10">{children}</div>
+        <div className="py-4 md:py-6 px-6 md:px-10">{children}</div>
       </div>
     </div>
   );
