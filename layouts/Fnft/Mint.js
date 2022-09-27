@@ -1,8 +1,11 @@
 import Button from "components/Button";
+import { useRouter } from "next/router";
 import React from "react";
 import { FaDiscord } from "react-icons/fa";
 
 function Mint() {
+  const router = useRouter();
+
   return (
     <div>
       <div className="container-2">
@@ -18,6 +21,7 @@ function Mint() {
 
         <div className="space-y-4 max-w-[38rem] mx-auto">
           <Button
+            onClick={() => router.push("/mint")}
             className="fs-20px text-white w-full"
             border="border-2 border-white"
           >
