@@ -1,19 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import PatentPopup from "./PatentPopup";
 import Tooltip from "./Tooltip";
 
 function PatentCard({ index, img, tooltipContent, children }) {
   const [popup, setPopup] = useState(false);
-
-  useEffect(() => {
-    if (popup) {
-      document.body.style["max-height"] = "100vh";
-      document.body.style["overflow-y"] = "hidden";
-    } else {
-      document.body.style["max-height"] = "auto";
-      document.body.style["overflow-y"] = "auto";
-    }
-  }, [popup]);
 
   return (
     <div className="">
