@@ -100,6 +100,7 @@ module.exports = {
           "linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8))",
         footer: "linear-gradient(180deg, black, #22014d);",
         page: "linear-gradient(222deg, #22014d, #000000 50%)",
+        "black-to-gray": "linear-gradient(226deg, #14171a, #36414b)",
       },
     },
   },
