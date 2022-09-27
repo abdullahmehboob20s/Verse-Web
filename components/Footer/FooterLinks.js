@@ -13,25 +13,25 @@ function FooterLinks() {
       <div>
         <h4 className="footer-links-title">Vision</h4>
         <div className="space-y-2">
-          <Link href="/">
+          <Link href="/mission">
             <a className="footer-link">Mission</a>
           </Link>
-          <Link href="/">
+          <Link href="/vision">
             <a className="footer-link">Vision</a>
           </Link>
-          <Link href="/">
+          <Link href="/legacy">
             <a className="footer-link">Our legacy</a>
           </Link>
-          <Link href="/">
+          <Link href="/web3d">
             <a className="footer-link">Web 3.D</a>
           </Link>
-          <Link href="/">
+          <Link href="/vww">
             <a className="footer-link">VWW</a>
           </Link>
-          <Link href="/">
+          <Link href="/build">
             <a className="footer-link">Build A Metaverse</a>
           </Link>
-          <Link href="/">
+          <Link href="/interconnectivity">
             <a className="footer-link">Interconnectivity</a>
           </Link>
         </div>
@@ -39,22 +39,22 @@ function FooterLinks() {
       <div>
         <h4 className="footer-links-title">Links</h4>
         <div className="space-y-2">
-          <Link href="/">
+          <Link href="/aeon">
             <a className="footer-link">Aeon</a>
           </Link>
-          <Link href="/">
+          <Link href="/mmor">
             <a className="footer-link">MMOR</a>
           </Link>
-          <Link href="/">
+          <Link href="/unity">
             <a className="footer-link">Unity</a>
           </Link>
-          <Link href="/">
+          <Link href="/responsibility">
             <a className="footer-link">Responsibility</a>
           </Link>
-          <Link href="/">
+          <Link href="/operations">
             <a className="footer-link">Operations</a>
           </Link>
-          <Link href="/">
+          <Link href="/career">
             <a className="footer-link">Careers</a>
           </Link>
         </div>
@@ -62,10 +62,10 @@ function FooterLinks() {
       <div>
         <h4 className="footer-links-title">Economy</h4>
         <div className="space-y-2">
-          <Link href="/">
+          <Link href="/tokenomics">
             <a className="footer-link">Tokenomics</a>
           </Link>
-          <Link href="/">
+          <Link href="/fnft">
             <a className="footer-link">fNFT</a>
           </Link>
         </div>
@@ -73,7 +73,7 @@ function FooterLinks() {
       <div>
         <h4 className="footer-links-title">Other</h4>
         <div className="space-y-2">
-          <Link href="/">
+          <Link href="/press">
             <a className="footer-link">Press</a>
           </Link>
           <Link href="/">
