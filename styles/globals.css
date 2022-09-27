@@ -321,3 +321,25 @@
 .job-card:hover {
   box-shadow: 0px 0px 20px #656df5a3;
 }
+
+.hide-btns::-webkit-inner-spin-button,
+.hide-btns::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.custom-select {
+  vertical-align: middle;
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e")
+    no-repeat right 0.75rem center/8px 10px #7e20fc;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.min-slider .swiper-wrapper {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+}
