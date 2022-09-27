@@ -1,9 +1,19 @@
 import OutsideClickDetector from "hooks/OutsideClickDetector";
-import React from "react";
+import React, { useEffect } from "react";
 import { IoClose } from "react-icons/io5";
 
 function PatentPopup({ children, img, show, setShow }) {
   const popupRef = OutsideClickDetector(() => setShow(false));
+
+  useEffect(() => {
+    if (show) {
+      document.body.style["height"] = "100vh";
+      document.body.style["overflow-y"] = "hidden";
+    } else {
+      document.body.style["height"] = "auto";
+      document.body.style["overflow-y"] = "auto";
+    }
+  }, [show]);
 
   return (
     <>
