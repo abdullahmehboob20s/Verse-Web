@@ -1,8 +1,23 @@
+import OutsideClickDetector from "hooks/OutsideClickDetector";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { FaPlay } from "react-icons/fa";
+import { IoClose } from "react-icons/io5";
 
 function PoweredBy() {
+  const [popup, setPopup] = useState(false);
+  const videRefWrapper = OutsideClickDetector(() => setPopup(false));
+  const vodeoRef = useRef(null);
+
+  useEffect(() => {
+    if (popup) {
+      vodeoRef.current.play();
+    } else {
+      vodeoRef.current.pause();
+      vodeoRef.current.currentTime = 0;
+    }
+  }, [popup]);
+
   return (
     <div>
       <div className="container-2 flex flex-col xl:flex-row justify-between items-center space-y-3 mt-14 lg:mt-0">
@@ -35,19 +50,49 @@ function PoweredBy() {
         </div>
 
         <div>
-          <Link href="/">
-            <a className="flex items-center space-x-4 border-1px rounded-6px xl:rounded-10px py-[5px] px-[18px] group hover:bg-white transition-all duration-.3s">
-              <span className="font-medium text-white text-xs xl:text-base group-hover:text-black transition-all duration-.3s">
-                <span className="text-white group-hover:text-black transition-all duration-.3s font-bold">
-                  TOUR
-                </span>{" "}
-                UTHERVERSE
-              </span>
-              <FaPlay className="text-[.5rem] xl:text-[.7rem] group-hover:fill-black transition-all duration-.3s" />
-            </a>
-          </Link>
+          <button
+            onClick={() => setPopup((val) => !val)}
+            className="flex items-center space-x-4 border-1px rounded-6px xl:rounded-10px py-[5px] px-[18px] group hover:bg-white transition-all duration-.3s"
+          >
+            <span className="font-medium text-white text-xs xl:text-base group-hover:text-black transition-all duration-.3s">
+              <span className="text-white group-hover:text-black transition-all duration-.3s font-bold">
+                TOUR
+              </span>{" "}
+              UTHERVERSE
+            </span>
+            <FaPlay className="text-[.5rem] xl:text-[.7rem] group-hover:fill-black transition-all duration-.3s" />
+          </button>
         </div>
       </div>
+
+      <div
+        ref={videRefWrapper}
+        className={`overflow-visible fixed top-1/2 left-1/2 -translate-x-1/2 w-[90%] max-w-[46rem] border-2 border-purple rounded-md z-[120] transition-all duration-300 ${
+          popup
+            ? "-translate-y-1/2 opacity-100 pointer-events-auto"
+            : "-translate-y-[60%] pointer-events-none opacity-0"
+        }`}
+      >
+        <video controls ref={vodeoRef} className="rounded-md">
+          {popup ? (
+            <source
+              src="images/tour-utheverse.mp4"
+              className="w-full"
+              type="video/mp4"
+            />
+          ) : null}
+          Your browser does not support the video tag.
+        </video>
+
+        <button
+          className="bg-black absolute top-[-.6em] right-[-.8em] border-2 w-[1.6em] h-[1.6em] rounded-full flex  justify-center items-center text-sm lg:text-xl"
+          onClick={() => setPopup(false)}
+        >
+          <IoClose />
+        </button>
+      </div>
+
+      <div className={`black-screen ${popup ? "show" : null}`}></div>
     </div>
   );
 }
