@@ -50,7 +50,12 @@ const RightSection = () => {
         tied to the growth and prosperity of the meta-era.
       </p>
 
-      <LearnMoreButton title="See all Patents" weight="font-bold" />
+      <LearnMoreButton
+        anchor={true}
+        link="/economics"
+        title="Learn More"
+        weight="font-bold"
+      />
     </>
   );
 };

@@ -19,14 +19,24 @@ function HeroLeft() {
       </p>
 
       <div className="flex justify-center lg:justify-start items-center mb-9 flex-wrap -mx-1 xl:mx-[-0.5rem]">
-        <HeroButton className="m-1 xl:m-2 bg-purple-gradient">
+        <HeroButton
+          link="https://utherverse.io/Utherverse_WhitePaper_v2.2.pdf"
+          target="_blank"
+          className="m-1 xl:m-2 bg-purple-gradient"
+        >
           Whitepaper
         </HeroButton>
-        <HeroButton className="m-1 xl:m-2 bg-purple">Tokenomics</HeroButton>
-        <HeroButton className="m-1 xl:m-2 bg-purple">
+        <HeroButton link="tokenomics" className="m-1 xl:m-2 bg-purple">
+          Tokenomics
+        </HeroButton>
+        <HeroButton link="/fnft" className="m-1 xl:m-2 bg-purple">
           <span className="lowercase">f</span>Nft™
         </HeroButton>
-        <HeroButton className="m-1 xl:m-2 hover:bg-purple-gradient">
+        <HeroButton
+          link="https://ido.utherverse.io/"
+          target="_blank"
+          className="m-1 xl:m-2 hover:bg-purple-gradient"
+        >
           Participate in IDO
         </HeroButton>
       </div>

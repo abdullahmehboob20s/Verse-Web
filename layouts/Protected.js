@@ -16,7 +16,12 @@ const LeftSection = () => {
         tied to the growth and prosperity of the meta-era.
       </p>
 
-      <LearnMoreButton title="See all Patents" weight="font-bold" />
+      <LearnMoreButton
+        anchor={true}
+        link="/patent"
+        title="See all Patents"
+        weight="font-bold"
+      />
     </>
   );
 };

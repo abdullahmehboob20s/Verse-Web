@@ -19,7 +19,7 @@ const LeftSection = () => {
         need to be the Sovereign of your own Metaverse - Faster and Better!
       </p>
 
-      <LearnMoreButton title="Learn More" />
+      <LearnMoreButton anchor={true} link="/build" title="Learn More" />
     </>
   );
 };

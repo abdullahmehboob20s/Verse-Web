@@ -90,32 +90,32 @@ function FooterLinks() {
           <Link href="/">
             <a className="footer-link">Contact</a>
           </Link>
-          <Link href="/">
-            <a className="footer-link">Follow us</a>
-          </Link>
+          <p className="text-xs xl:text-lg text-white font-medium w-fit block">
+            Follow us
+          </p>
         </div>
         <div className="flex items-center space-x-2 xl:space-x-4">
-          <Link href="/">
+          <Link href="https://discord.gg/theuthers">
             <a target="_blank" className="text-base xl:text-2xl flex group">
               <FaDiscord className="footer-social-icon" />
             </a>
           </Link>
-          <Link href="/">
+          <Link href="https://t.me/utherverseannouncements">
             <a target="_blank" className="text-base xl:text-2xl flex group">
               <FaTelegramPlane className="footer-social-icon" />
             </a>
           </Link>
-          <Link href="/">
+          <Link href="https://twitter.com/Utherverse">
             <a target="_blank" className="text-sm xl:text-xl flex group">
               <FaTwitter className="footer-social-icon" />
             </a>
           </Link>
-          <Link href="/">
+          <Link href="https://www.facebook.com/UtherverseDigital">
             <a target="_blank" className="text-sm xl:text-xl flex group">
               <FaFacebookF className="footer-social-icon" />
             </a>
           </Link>
-          <Link href="/">
+          <Link href="https://www.instagram.com/utherverse">
             <a target="_blank" className="text-sm xl:text-xl flex group">
               <FaInstagram className="footer-social-icon" />
             </a>

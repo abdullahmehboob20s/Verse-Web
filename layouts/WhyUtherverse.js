@@ -37,7 +37,7 @@ function WhyUtherverse() {
           </p>
 
           <div className="mb-10 sm:mb-12">
-            <LearnMoreButton title="Learn More" />
+            <LearnMoreButton anchor={true} link="/aeon" title="Learn More" />
           </div>
 
           <div className="p-4 xl:p-5 font-medium text-center text-white text-xs xl:text-sm bg-purple-gradient-2 rounded-xl xl:rounded-[20px]">

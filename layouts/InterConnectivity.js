@@ -23,7 +23,11 @@ const RightSection = () => {
         <BulletPoint title="Jump into and out of events" />
       </div>
 
-      <LearnMoreButton title="Learn More" />
+      <LearnMoreButton
+        anchor={true}
+        link="/interconnectivity"
+        title="Learn More"
+      />
     </>
   );
 };

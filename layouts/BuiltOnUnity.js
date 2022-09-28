@@ -28,7 +28,7 @@ const LeftSection = () => {
         their experience and creations along.
       </p>
 
-      <LearnMoreButton title="Learn More" />
+      <LearnMoreButton anchor={true} link="/unity" title="Learn More" />
     </>
   );
 };

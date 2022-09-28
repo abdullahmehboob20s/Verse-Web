@@ -118,22 +118,22 @@ function Navbar() {
           </div>
 
           <div className="flex items-center justify-between lg:justify-start space-x-5 xl:space-x-10">
-            <Link href="/">
+            <Link href="https://discord.gg/theuthers">
               <a target="_blank" className="text-lg lg:text-base xl:text-xl">
                 <FaDiscord />
               </a>
             </Link>
-            <Link href="/">
+            <Link href="https://t.me/utherverseannouncements">
               <a target="_blank" className="text-lg lg:text-base xl:text-xl">
                 <FaTelegramPlane />
               </a>
             </Link>
-            <Link href="/">
+            <Link href="https://twitter.com/Utherverse">
               <a target="_blank" className="text-lg lg:text-base xl:text-xl">
                 <FaTwitter />
               </a>
             </Link>
-            <Link href="/">
+            <Link href="https://www.facebook.com/UtherverseDigital">
               <a
                 target="_blank"
                 className="text-base lg:text-sm xl:text-[1.1rem]"
@@ -141,7 +141,7 @@ function Navbar() {
                 <FaFacebookF />
               </a>
             </Link>
-            <Link href="/">
+            <Link href="https://www.instagram.com/utherverse">
               <a target="_blank" className="text-lg lg:text-base xl:text-xl">
                 <FaInstagram />
               </a>

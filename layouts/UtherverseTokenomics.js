@@ -20,7 +20,7 @@ const LeftSection = () => {
         realization of web 3.D
       </p>
 
-      <LearnMoreButton title="Learn More" />
+      <LearnMoreButton anchor={true} link="/tokenomics" title="Learn More" />
     </>
   );
 };

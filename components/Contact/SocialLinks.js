@@ -14,27 +14,27 @@ function SocialLinks() {
         {"We're"} social
       </div>
       <div className="w-fit mx-auto bg-purple p-4 space-x-6 xs:space-x-8 xl:space-x-12 px-9 rounded-full flex items-center justify-between relative">
-        <Link href="/">
+        <Link href="https://discord.gg/theuthers">
           <a target="_blank" className="text-2xl lg:text-3xl xl:text-4xl flex">
             <FaDiscord />
           </a>
         </Link>
-        <Link href="/">
+        <Link href="https://t.me/utherverseannouncements">
           <a target="_blank" className="text-2xl lg:text-3xl xl:text-4xl flex">
             <FaTelegramPlane />
           </a>
         </Link>
-        <Link href="/">
+        <Link href="https://twitter.com/Utherverse">
           <a target="_blank" className="text-xl lg:text-2xl xl:text-3xl flex">
             <FaTwitter />
           </a>
         </Link>
-        <Link href="/">
+        <Link href="https://www.facebook.com/UtherverseDigital">
           <a target="_blank" className="text-xl lg:text-2xl xl:text-3xl flex">
             <FaFacebookF />
           </a>
         </Link>
-        <Link href="/">
+        <Link href="https://www.instagram.com/utherverse">
           <a target="_blank" className="text-xl lg:text-2xl xl:text-3xl flex">
             <FaInstagram />
           </a>

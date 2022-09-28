@@ -33,7 +33,7 @@ const RightSection = () => {
         companie haven’t even realized are problems yet.
       </p>
 
-      <LearnMoreButton title="Learn More" />
+      <LearnMoreButton anchor={true} link="/mmor" title="Learn More" />
     </>
   );
 };
