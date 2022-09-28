@@ -73,7 +73,7 @@ function PoweredBy() {
             : "-translate-y-[60%] pointer-events-none opacity-0"
         }`}
       >
-        <video controls ref={vodeoRef} className="rounded-md">
+        <video controls ref={vodeoRef} className="rounded-md w-full">
           {popup ? (
             <source
               src="images/tour-utheverse.mp4"
